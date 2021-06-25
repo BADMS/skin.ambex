@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<includes>
+    <variable name="HighlightColor">
+		<value condition="!String.IsEmpty(Window(home).Property(ImageColorFIVE))">$INFO[Window(home).Property(ImageColorFIVE)]</value>
+		<value>ff000000</value>
+	</variable>
+	<variable name="FanartColor">
+		<value condition="!String.IsEmpty(Window(home).Property(ImageColorFIVE))">$INFO[Window(home).Property(ImageColorFIVE)]</value>
+		<value>ff000000</value>
+	</variable>
+	<variable name="BackgroundColor">
+		<value condition="!String.IsEmpty(Window(home).Property(ImageColorFIVE))">$INFO[Window(home).Property(ImageColorFIVE)]</value>
+		<value>ff000000</value>
+	</variable>
+	<variable name="SecondaryColor">
+		<value condition="!String.IsEmpty(Window(home).Property(ImageCColorFIVE))">$INFO[Window(home).Property(ImageCColorFIVE)]</value>
+		<value>ffffffff</value>
+	</variable>
+	<variable name="DiffuseColor">
+		<value condition="!String.IsEmpty(Window(home).Property(ImageColorFIVE))">$INFO[Window(home).Property(ImageColorFIVE)]</value>
+		<value>ff000000</value>
+	</variable>
+	<variable name="BorderColor">
+		<value condition="!String.IsEmpty(Window(home).Property(ImageCColorFIVE))">$INFO[Window(home).Property(ImageCColorFIVE)]</value>
+		<value>ffffffff</value>
+	</variable>
+	<variable name="TextColor">
+		<value condition="!String.IsEmpty(Window(home).Property(ImageCColorFIVE))">$INFO[Window(home).Property(ImageCColorFIVE)]</value>
+		<value>ffffffff</value>
+	</variable>
+	<variable name="FocusedColor">
+		<value condition="!String.IsEmpty(Window(home).Property(ImageCColorFIVE))">$INFO[Window(home).Property(ImageCColorFIVE)]</value>
+		<value>ffffffff</value>
+	</variable>
+	<variable name="UnFocusedColor">
+		<value condition="!String.IsEmpty(Window(home).Property(ImageColorFIVE))">$INFO[Window(home).Property(ImageColorFIVE)]</value>
+		<value>ff000000</value>
+	</variable>
+	<variable name="ThreadColor0">
+		<value condition="!String.IsEmpty(Window(home).Property(ImageColorFIVE))">$INFO[Window(home).Property(ThreadColor0)]</value>
+		<value>YYYYYYYY</value>
+	</variable>
+	<variable name="ThreadColor1">
+		<value condition="!String.IsEmpty(Window(home).Property(ImageColorFIVE))">$INFO[Window(home).Property(ThreadColor1)]</value>
+		<value>XXXXXXXX</value>
+	</variable>
+	<variable name="ThreadColor2">
+		<value condition="!String.IsEmpty(Window(home).Property(ImageColorFIVE))">$INFO[Window(home).Property(ThreadColor2)]</value>
+		<value>ZZZZZZZZ</value>
+	</variable>
+	<variable name="SelectedColor">
+		<value>ffaaf200</value>
+	</variable>
+	<variable name="DisabledColor">
+		<value>99000000</value>
+	</variable>
+	<variable name="SecondaryColor">
+		<value>ff426084</value>
+	</variable>
+</includes>

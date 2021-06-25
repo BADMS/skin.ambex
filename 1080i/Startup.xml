@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<defaultcontrol always="true">10</defaultcontrol>
+    <onload condition="System.HasAddon(script.skin.info.service)">RunScript(script.skin.info.service)</onload>
+    <onload condition="Skin.HasSetting(Enable.TMDbHelper)">Skin.SetBool(TMDbHelper.Service)</onload>
+	<onload>SetProperty(FIVE_daemon_set,blur,home)</onload>
+	<onload>ReplaceWindow($INFO[System.StartupWindow])</onload>
+	<controls>
+		<control type="button" id="10">
+			<description>trigger</description>
+			<onfocus>ReplaceWindow($INFO[System.StartupWindow])</onfocus>
+			<onfocus condition="System.HasAddon(script.litebox)">RunScript(script.litebox,daemon=True)</onfocus>
+			<onfocus condition="System.HasAddon(script.litebox)">AlarmClock(nms1,SetProperty(NINE_manual_set,"var=main,set=main:bump*50|var=comp,set=comp:hsv*0;-0.1;0.3@bump*-10|var=blursize,set=5|var=quality,set=10",home),00:05,true)</onfocus>
+			<texturefocus></texturefocus>
+			<visible>!Skin.HasSetting(Use_Startup_Playlist)</visible>
+		</control>
+		<control type="button" id="10">
+			<description>trigger with startup Playlist</description>
+			<onfocus>XBMC.PlayMedia($INFO[Skin.String(Startup_Playlist_Path)])</onfocus>
+			<onfocus>ReplaceWindow($INFO[System.StartupWindow])</onfocus>
+			<onfocus condition="System.HasAddon(script.litebox)">RunScript(script.litebox,daemon=True)</onfocus>
+			<onfocus condition="System.HasAddon(script.litebox)">AlarmClock(nms1,SetProperty(NINE_manual_set,"var=main,set=main:|var=comp,set=main:|var=blursize,set=2|var=quality,set=1",home),00:05,true)</onfocus>
+			<texturefocus></texturefocus>
+			<visible>Skin.HasSetting(Use_Startup_Playlist)</visible>
+		</control>
+		<control type="multiimage" id="7975">
+			<include>FullscreenDimensions</include>
+			<fadetime>400</fadetime>
+			<imagepath background="true">special://skin/resources/fanart.jpg</imagepath>
+		</control>
+    </controls>
+</window>
