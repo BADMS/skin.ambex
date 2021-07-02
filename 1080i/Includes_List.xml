@@ -94,7 +94,7 @@
 					<height>$PARAM[itemheight]</height>
                     <width>670</width>
 					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
-				    <animation effect="fade" start="00" end="1000" time="1200" pulse="true" reversible="true" condition="true">Conditional</animation>
+				    <animation effect="fade" start="20" end="100" time="800" pulse="true" reversible="true" condition="true">Conditional</animation>
 			    </control>
                 <control type="label" description="Main Label">
     				<posx>679</posx>
@@ -245,7 +245,7 @@
 					<height>$PARAM[itemheight]</height>
                     <width>680</width>
 					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
-				    <animation effect="fade" start="00" end="1000" time="1200" pulse="true" reversible="true" condition="true">Conditional</animation>
+				    <animation effect="fade" start="20" end="100" time="800" pulse="true" reversible="true" condition="true">Conditional</animation>
 			    </control>
                 <control type="label" description="Main Label">
     				<posx>679</posx>
@@ -391,7 +391,7 @@
 					<height>$PARAM[itemheight]</height>
                     <width>640</width>
 					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
-				    <animation effect="fade" start="00" end="1000" time="1200" pulse="true" reversible="true" condition="true">Conditional</animation>
+				    <animation effect="fade" start="20" end="100" time="800" pulse="true" reversible="true" condition="true">Conditional</animation>
 			    </control>
                 <control type="label" description="Main Label">
     				<posx>9</posx>
@@ -527,7 +527,7 @@
 					<height>$PARAM[itemheight]</height>
                     <width>680</width>
 					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
-				    <animation effect="fade" start="00" end="1000" time="1200" pulse="true" reversible="true" condition="true">Conditional</animation>
+				    <animation effect="fade" start="20" end="100" time="800" pulse="true" reversible="true" condition="true">Conditional</animation>
 			    </control>
                 <control type="label" description="Main Label">
     				<posx>0</posx>
@@ -712,7 +712,7 @@
 					<height>$PARAM[itemheight]</height>
 				    <width>1320</width>
 					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
-				    <animation effect="fade" start="00" end="1000" time="1200" pulse="true" reversible="true" condition="true">Conditional</animation>
+				    <animation effect="fade" start="20" end="100" time="800" pulse="true" reversible="true" condition="true">Conditional</animation>
 			    </control>
 			    <control type="label">
     				<posx>25</posx>
@@ -864,7 +864,7 @@
 					<height>$PARAM[itemheight]</height>
 				    <width>1320</width>
 					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
-				    <animation effect="fade" start="00" end="1000" time="1200" pulse="true" reversible="true" condition="true">Conditional</animation>
+				    <animation effect="fade" start="20" end="100" time="800" pulse="true" reversible="true" condition="true">Conditional</animation>
 			    </control>
 			    <control type="label">
     				<posx>25</posx>
@@ -970,7 +970,7 @@
 					<height>$PARAM[itemheight]</height>
                     <width>1070</width>
 					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
-				    <animation effect="fade" start="00" end="1000" time="1200" pulse="true" reversible="true" condition="true">Conditional</animation>
+				    <animation effect="fade" start="20" end="100" time="800" pulse="true" reversible="true" condition="true">Conditional</animation>
 			    </control>
                 <control type="label" description="Main Label">
     				<posx>439</posx>
@@ -1105,7 +1105,7 @@
 					<height>$PARAM[itemheight]</height>
                     <width>670</width>
 					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
-				    <animation effect="fade" start="00" end="1000" time="1200" pulse="true" reversible="true" condition="true">Conditional</animation>
+				    <animation effect="fade" start="20" end="100" time="800" pulse="true" reversible="true" condition="true">Conditional</animation>
 			    </control>
                 <control type="label" description="Main Label">
     				<posx>879</posx>
@@ -1256,7 +1256,7 @@
 					<height>$PARAM[itemheight]</height>
                     <width>680</width>
 					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
-				    <animation effect="fade" start="00" end="1000" time="1200" pulse="true" reversible="true" condition="true">Conditional</animation>
+				    <animation effect="fade" start="20" end="100" time="800" pulse="true" reversible="true" condition="true">Conditional</animation>
 			    </control>
                 <control type="label" description="Main Label">
     				<posx>879</posx>
@@ -1402,7 +1402,7 @@
 					<height>$PARAM[itemheight]</height>
                     <width>640</width>
 					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
-				    <animation effect="fade" start="00" end="1000" time="1200" pulse="true" reversible="true" condition="true">Conditional</animation>
+				    <animation effect="fade" start="20" end="100" time="800" pulse="true" reversible="true" condition="true">Conditional</animation>
 			    </control>
                 <control type="label" description="Main Label">
     				<posx>9</posx>
@@ -1518,7 +1518,7 @@
 					<height>$PARAM[itemheight]</height>
                     <width>680</width>
 					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
-				    <animation effect="fade" start="00" end="1000" time="1200" pulse="true" reversible="true" condition="true">Conditional</animation>
+				    <animation effect="fade" start="20" end="100" time="800" pulse="true" reversible="true" condition="true">Conditional</animation>
 			    </control>
                 <control type="label" description="Main Label">
     				<posx>0</posx>
@@ -1677,7 +1677,7 @@
 					<height>$PARAM[itemheight]</height>
 				    <width>1520</width>
 					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
-				    <animation effect="fade" start="00" end="1000" time="1200" pulse="true" reversible="true" condition="true">Conditional</animation>
+				    <animation effect="fade" start="20" end="100" time="800" pulse="true" reversible="true" condition="true">Conditional</animation>
 			    </control>
 			    <control type="label">
     				<posx>25</posx>
@@ -1829,7 +1829,7 @@
 					<height>$PARAM[itemheight]</height>
 				    <width>1520</width>
 					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
-				    <animation effect="fade" start="00" end="1000" time="1200" pulse="true" reversible="true" condition="true">Conditional</animation>
+				    <animation effect="fade" start="20" end="100" time="800" pulse="true" reversible="true" condition="true">Conditional</animation>
 			    </control>
 			    <control type="label">
     				<posx>25</posx>
@@ -1935,7 +1935,7 @@
 					<height>$PARAM[itemheight]</height>
                     <width>1270</width>
 					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
-				    <animation effect="fade" start="00" end="1000" time="1200" pulse="true" reversible="true" condition="true">Conditional</animation>
+				    <animation effect="fade" start="20" end="100" time="800" pulse="true" reversible="true" condition="true">Conditional</animation>
 			    </control>
                 <control type="label" description="Main Label">
     				<posx>439</posx>
@@ -2067,7 +2067,7 @@
 					<height>$PARAM[itemheight]</height>
                     <width>670</width>
 					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
-				    <animation effect="fade" start="00" end="1000" time="1200" pulse="true" reversible="true" condition="true">Conditional</animation>
+				    <animation effect="fade" start="20" end="100" time="800" pulse="true" reversible="true" condition="true">Conditional</animation>
 			    </control>
                 <control type="label" description="Main Label">
     				<posx>679</posx>
@@ -2218,7 +2218,7 @@
 					<height>$PARAM[itemheight]</height>
                     <width>680</width>
 					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
-				    <animation effect="fade" start="00" end="1000" time="1200" pulse="true" reversible="true" condition="true">Conditional</animation>
+				    <animation effect="fade" start="20" end="100" time="800" pulse="true" reversible="true" condition="true">Conditional</animation>
 			    </control>
                 <control type="label" description="Main Label">
     				<posx>679</posx>
@@ -2377,7 +2377,7 @@
 					<height>$PARAM[itemheight]</height>
                     <width>640</width>
 					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
-				    <animation effect="fade" start="00" end="1000" time="1200" pulse="true" reversible="true" condition="true">Conditional</animation>
+				    <animation effect="fade" start="20" end="100" time="800" pulse="true" reversible="true" condition="true">Conditional</animation>
 			    </control>
                 <control type="label" description="Main Label">
     				<posx>85</posx>
@@ -2528,7 +2528,7 @@
 					<height>$PARAM[itemheight]</height>
                     <width>640</width>
 					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
-				    <animation effect="fade" start="00" end="1000" time="1200" pulse="true" reversible="true" condition="true">Conditional</animation>
+				    <animation effect="fade" start="20" end="100" time="800" pulse="true" reversible="true" condition="true">Conditional</animation>
 			    </control>
                 <control type="label" description="Main Label">
     				<posx>85</posx>
@@ -2713,7 +2713,7 @@
 					<height>$PARAM[itemheight]</height>
 				    <width>1320</width>
 					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
-				    <animation effect="fade" start="00" end="1000" time="1200" pulse="true" reversible="true" condition="true">Conditional</animation>
+				    <animation effect="fade" start="20" end="100" time="800" pulse="true" reversible="true" condition="true">Conditional</animation>
 			    </control>
 			    <control type="label">
     				<posx>85</posx>
@@ -2865,7 +2865,7 @@
 					<height>$PARAM[itemheight]</height>
 				    <width>1320</width>
 					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
-				    <animation effect="fade" start="00" end="1000" time="1200" pulse="true" reversible="true" condition="true">Conditional</animation>
+				    <animation effect="fade" start="20" end="100" time="800" pulse="true" reversible="true" condition="true">Conditional</animation>
 			    </control>
 			    <control type="label">
     				<posx>85</posx>
@@ -2971,7 +2971,7 @@
 					<height>$PARAM[itemheight]</height>
                     <width>1070</width>
 					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
-				    <animation effect="fade" start="00" end="1000" time="1200" pulse="true" reversible="true" condition="true">Conditional</animation>
+				    <animation effect="fade" start="20" end="100" time="800" pulse="true" reversible="true" condition="true">Conditional</animation>
 			    </control>
                 <control type="label" description="Main Label">
     				<posx>439</posx>
@@ -3044,7 +3044,7 @@
 				<width>1010</width>
 				<height>104</height>
 				<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
-				<animation effect="fade" start="00" end="1000" time="1200" pulse="true" reversible="true" condition="true">Conditional</animation>
+				<animation effect="fade" start="20" end="100" time="800" pulse="true" reversible="true" condition="true">Conditional</animation>
 				<!-- <animation effect="rotatex" end="-360" center="52,0" time="3600" loop="true" reversible="false" condition="true">Conditional</animation>
 				<animation effect="fade" start="105" end="50" time="105" condition="!Control.HasFocus(52)">Conditional</animation> -->
 			</control>
@@ -3194,7 +3194,7 @@
 					<height>$PARAM[itemheight]</height>
                     <width>570</width>
 					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
-				    <animation effect="fade" start="00" end="1000" time="1200" pulse="true" reversible="true" condition="true">Conditional</animation>
+				    <animation effect="fade" start="20" end="100" time="800" pulse="true" reversible="true" condition="true">Conditional</animation>
 			    </control>
                 <control type="label" description="Main Label">
     				<posx>9</posx>
