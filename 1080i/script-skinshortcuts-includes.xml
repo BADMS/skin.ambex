@@ -8,7 +8,8 @@
 			<thumb>$VAR[Addons.Art]</thumb>
 			<property name="labelID">24001</property>
 			<property name="defaultID">addons</property>
-			<property name="background">$VAR[Addons.Art]</property>
+			<property name="background">Kodi.Global.Fanart</property>
+			<property name="backgroundName">Random fanart (Kodi)</property>
 			<property name="widgetTarget">false</property>
 			<property name="widgetTarget.2">false</property>
 			<property name="widgetTarget.3">false</property>
@@ -84,7 +85,8 @@
 			<thumb>$VAR[Videos.Art]</thumb>
 			<property name="labelID">videos</property>
 			<property name="defaultID">videos</property>
-			<property name="background">$VAR[Videos.Art]</property>
+			<property name="background">Kodi.Global.Fanart</property>
+			<property name="backgroundName">Random fanart (Kodi)</property>
 			<property name="widgetTarget">false</property>
 			<property name="widgetTarget.2">false</property>
 			<property name="widgetTarget.3">false</property>
@@ -238,8 +240,8 @@
 			<thumb>$VAR[TVShows.Art]</thumb>
 			<property name="labelID">tvshows</property>
 			<property name="defaultID">tvshows</property>
-			<property name="background">Kodi.TV.Fanart</property>
-			<property name="backgroundName">Random TV Show fanart (Kodi)</property>
+			<property name="background">Kodi.Global.Fanart</property>
+			<property name="backgroundName">Random fanart (Kodi)</property>
 			<property name="widgetTarget">false</property>
 			<property name="widgetTarget.2">false</property>
 			<property name="widgetTarget.3">false</property>
@@ -316,72 +318,8 @@
 			<thumb>$VAR[Music.Art]</thumb>
 			<property name="labelID">music</property>
 			<property name="defaultID">music</property>
-			<property name="background">$VAR[Music.Art]</property>
-			<property name="widgetTarget">false</property>
-			<property name="widgetTarget.2">false</property>
-			<property name="widgetTarget.3">false</property>
-			<property name="widgetTarget.4">false</property>
-			<property name="widgetTarget.5">false</property>
-			<property name="widgetTarget.6">false</property>
-			<property name="horizontalWidgetPos">Standard</property>
-			<property name="EHPlaylistFanart">false</property>
-			<property name="widgetTwoShelves">false</property>
-			<property name="widgetThreeShelves">false</property>
-			<property name="widgetThreeShelvesLarge">false</property>
-			<property name="widgetArtwork">Poster</property>
-			<property name="widgetArtwork.2">Poster</property>
-			<property name="widgetArtwork.3">Poster</property>
-			<property name="widgetArtwork.4">Poster</property>
-			<property name="widgetArtwork.5">Poster</property>
-			<property name="widgetArtwork.6">Poster</property>
-			<property name="widgetPosterLabel">false</property>
-			<property name="widgetPosterLabel.2">false</property>
-			<property name="widgetPosterLabel.3">false</property>
-			<property name="widgetPosterLabel.4">false</property>
-			<property name="widgetPosterLabel.5">false</property>
-			<property name="widgetPosterLabel.6">false</property>
-			<property name="widgetLabelScroll">false</property>
-			<property name="widgetLabelScroll.2">false</property>
-			<property name="widgetLabelScroll.3">false</property>
-			<property name="widgetLabelScroll.4">false</property>
-			<property name="widgetLabelScroll.5">false</property>
-			<property name="widgetLabelScroll.6">false</property>
-			<property name="widgetShowTextbox">true</property>
-			<property name="widgetShowTextbox.2">true</property>
-			<property name="widgetShowTextbox.3">true</property>
-			<property name="widgetShowTextbox.4">true</property>
-			<property name="widgetShowTextbox.5">true</property>
-			<property name="widgetShowTextbox.6">true</property>
-			<property name="widgetDouble">false</property>
-			<property name="widgetDouble.2">false</property>
-			<property name="widgetDouble.3">false</property>
-			<property name="widgetDouble.4">false</property>
-			<property name="widgetDouble.5">false</property>
-			<property name="widgetDouble.6">false</property>
-			<property name="widgetTriple">false</property>
-			<property name="widgetTriple.2">false</property>
-			<property name="widgetTriple.3">false</property>
-			<property name="widgetTriple.4">false</property>
-			<property name="widgetTriple.5">false</property>
-			<property name="widgetTriple.6">false</property>
-			<property name="widgetType">none</property>
-			<property name="widgetType.2">none</property>
-			<property name="widgetType.3">none</property>
-			<property name="widgetType.4">none</property>
-			<property name="widgetType.5">none</property>
-			<property name="widgetType.6">none</property>
-			<property name="widgetContent">default</property>
-			<property name="widgetContent.2">default</property>
-			<property name="widgetContent.3">default</property>
-			<property name="widgetContent.4">default</property>
-			<property name="widgetContent.5">default</property>
-			<property name="widgetContent.6">default</property>
-			<onclick>ActivateWindow(Music,musicdb://,return)</onclick>
-			<property name="path">ActivateWindow(Music,musicdb://,return)</property>
-			<property name="list">musicdb://</property>
-			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="submenuVisibility">music</property>
-			<property name="group">mainmenu</property>
+			<visible>False</visible>
+			<onclick>noop</onclick>
 			<property name="hasSubmenu">True</property>
 		</item>
 		<item id="6">
@@ -392,73 +330,8 @@
 			<thumb>$VAR[MusicVideos.Art]</thumb>
 			<property name="labelID">musicvideos</property>
 			<property name="defaultID">musicvideos</property>
-			<property name="background">$VAR[MusicVideos.Art]</property>
-			<property name="widgetTarget">false</property>
-			<property name="widgetTarget.2">false</property>
-			<property name="widgetTarget.3">false</property>
-			<property name="widgetTarget.4">false</property>
-			<property name="widgetTarget.5">false</property>
-			<property name="widgetTarget.6">false</property>
-			<property name="horizontalWidgetPos">Standard</property>
-			<property name="EHPlaylistFanart">false</property>
-			<property name="widgetTwoShelves">false</property>
-			<property name="widgetThreeShelves">false</property>
-			<property name="widgetThreeShelvesLarge">false</property>
-			<property name="widgetArtwork">Poster</property>
-			<property name="widgetArtwork.2">Poster</property>
-			<property name="widgetArtwork.3">Poster</property>
-			<property name="widgetArtwork.4">Poster</property>
-			<property name="widgetArtwork.5">Poster</property>
-			<property name="widgetArtwork.6">Poster</property>
-			<property name="widgetPosterLabel">false</property>
-			<property name="widgetPosterLabel.2">false</property>
-			<property name="widgetPosterLabel.3">false</property>
-			<property name="widgetPosterLabel.4">false</property>
-			<property name="widgetPosterLabel.5">false</property>
-			<property name="widgetPosterLabel.6">false</property>
-			<property name="widgetLabelScroll">false</property>
-			<property name="widgetLabelScroll.2">false</property>
-			<property name="widgetLabelScroll.3">false</property>
-			<property name="widgetLabelScroll.4">false</property>
-			<property name="widgetLabelScroll.5">false</property>
-			<property name="widgetLabelScroll.6">false</property>
-			<property name="widgetShowTextbox">true</property>
-			<property name="widgetShowTextbox.2">true</property>
-			<property name="widgetShowTextbox.3">true</property>
-			<property name="widgetShowTextbox.4">true</property>
-			<property name="widgetShowTextbox.5">true</property>
-			<property name="widgetShowTextbox.6">true</property>
-			<property name="widgetDouble">false</property>
-			<property name="widgetDouble.2">false</property>
-			<property name="widgetDouble.3">false</property>
-			<property name="widgetDouble.4">false</property>
-			<property name="widgetDouble.5">false</property>
-			<property name="widgetDouble.6">false</property>
-			<property name="widgetTriple">false</property>
-			<property name="widgetTriple.2">false</property>
-			<property name="widgetTriple.3">false</property>
-			<property name="widgetTriple.4">false</property>
-			<property name="widgetTriple.5">false</property>
-			<property name="widgetTriple.6">false</property>
-			<property name="widgetType">none</property>
-			<property name="widgetType.2">none</property>
-			<property name="widgetType.3">none</property>
-			<property name="widgetType.4">none</property>
-			<property name="widgetType.5">none</property>
-			<property name="widgetType.6">none</property>
-			<property name="widgetContent">default</property>
-			<property name="widgetContent.2">default</property>
-			<property name="widgetContent.3">default</property>
-			<property name="widgetContent.4">default</property>
-			<property name="widgetContent.5">default</property>
-			<property name="widgetContent.6">default</property>
-			<visible>Library.HasContent(MusicVideos)</visible>
-			<onclick>ActivateWindow(videos,videodb://musicvideos/titles/,return)</onclick>
-			<property name="path">ActivateWindow(videos,videodb://musicvideos/titles/,return)</property>
-			<property name="list">videodb://musicvideos/titles/</property>
-			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="submenuVisibility">musicvideos</property>
-			<property name="group">mainmenu</property>
+			<visible>False</visible>
+			<onclick>noop</onclick>
 			<property name="hasSubmenu">True</property>
 		</item>
 		<item id="7">
@@ -623,72 +496,8 @@
 			<thumb>$VAR[Pictures.Art]</thumb>
 			<property name="labelID">1</property>
 			<property name="defaultID">pictures</property>
-			<property name="background">$VAR[Pictures.Art]</property>
-			<property name="widgetTarget">false</property>
-			<property name="widgetTarget.2">false</property>
-			<property name="widgetTarget.3">false</property>
-			<property name="widgetTarget.4">false</property>
-			<property name="widgetTarget.5">false</property>
-			<property name="widgetTarget.6">false</property>
-			<property name="horizontalWidgetPos">Standard</property>
-			<property name="EHPlaylistFanart">false</property>
-			<property name="widgetTwoShelves">false</property>
-			<property name="widgetThreeShelves">false</property>
-			<property name="widgetThreeShelvesLarge">false</property>
-			<property name="widgetArtwork">Poster</property>
-			<property name="widgetArtwork.2">Poster</property>
-			<property name="widgetArtwork.3">Poster</property>
-			<property name="widgetArtwork.4">Poster</property>
-			<property name="widgetArtwork.5">Poster</property>
-			<property name="widgetArtwork.6">Poster</property>
-			<property name="widgetPosterLabel">false</property>
-			<property name="widgetPosterLabel.2">false</property>
-			<property name="widgetPosterLabel.3">false</property>
-			<property name="widgetPosterLabel.4">false</property>
-			<property name="widgetPosterLabel.5">false</property>
-			<property name="widgetPosterLabel.6">false</property>
-			<property name="widgetLabelScroll">false</property>
-			<property name="widgetLabelScroll.2">false</property>
-			<property name="widgetLabelScroll.3">false</property>
-			<property name="widgetLabelScroll.4">false</property>
-			<property name="widgetLabelScroll.5">false</property>
-			<property name="widgetLabelScroll.6">false</property>
-			<property name="widgetShowTextbox">true</property>
-			<property name="widgetShowTextbox.2">true</property>
-			<property name="widgetShowTextbox.3">true</property>
-			<property name="widgetShowTextbox.4">true</property>
-			<property name="widgetShowTextbox.5">true</property>
-			<property name="widgetShowTextbox.6">true</property>
-			<property name="widgetDouble">false</property>
-			<property name="widgetDouble.2">false</property>
-			<property name="widgetDouble.3">false</property>
-			<property name="widgetDouble.4">false</property>
-			<property name="widgetDouble.5">false</property>
-			<property name="widgetDouble.6">false</property>
-			<property name="widgetTriple">false</property>
-			<property name="widgetTriple.2">false</property>
-			<property name="widgetTriple.3">false</property>
-			<property name="widgetTriple.4">false</property>
-			<property name="widgetTriple.5">false</property>
-			<property name="widgetTriple.6">false</property>
-			<property name="widgetType">none</property>
-			<property name="widgetType.2">none</property>
-			<property name="widgetType.3">none</property>
-			<property name="widgetType.4">none</property>
-			<property name="widgetType.5">none</property>
-			<property name="widgetType.6">none</property>
-			<property name="widgetContent">default</property>
-			<property name="widgetContent.2">default</property>
-			<property name="widgetContent.3">default</property>
-			<property name="widgetContent.4">default</property>
-			<property name="widgetContent.5">default</property>
-			<property name="widgetContent.6">default</property>
-			<onclick>ActivateWindow(pictures,root)</onclick>
-			<property name="path">ActivateWindow(pictures,root)</property>
-			<property name="list">root</property>
-			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="submenuVisibility">num-1</property>
-			<property name="group">mainmenu</property>
+			<visible>False</visible>
+			<onclick>noop</onclick>
 			<property name="hasSubmenu">True</property>
 		</item>
 		<item id="10">
@@ -699,73 +508,8 @@
 			<thumb>$VAR[Games.Art]</thumb>
 			<property name="labelID">15016</property>
 			<property name="defaultID">games</property>
-			<property name="background">$VAR[Games.Art]</property>
-			<property name="widgetTarget">false</property>
-			<property name="widgetTarget.2">false</property>
-			<property name="widgetTarget.3">false</property>
-			<property name="widgetTarget.4">false</property>
-			<property name="widgetTarget.5">false</property>
-			<property name="widgetTarget.6">false</property>
-			<property name="horizontalWidgetPos">Standard</property>
-			<property name="EHPlaylistFanart">false</property>
-			<property name="widgetTwoShelves">false</property>
-			<property name="widgetThreeShelves">false</property>
-			<property name="widgetThreeShelvesLarge">false</property>
-			<property name="widgetArtwork">Poster</property>
-			<property name="widgetArtwork.2">Poster</property>
-			<property name="widgetArtwork.3">Poster</property>
-			<property name="widgetArtwork.4">Poster</property>
-			<property name="widgetArtwork.5">Poster</property>
-			<property name="widgetArtwork.6">Poster</property>
-			<property name="widgetPosterLabel">false</property>
-			<property name="widgetPosterLabel.2">false</property>
-			<property name="widgetPosterLabel.3">false</property>
-			<property name="widgetPosterLabel.4">false</property>
-			<property name="widgetPosterLabel.5">false</property>
-			<property name="widgetPosterLabel.6">false</property>
-			<property name="widgetLabelScroll">false</property>
-			<property name="widgetLabelScroll.2">false</property>
-			<property name="widgetLabelScroll.3">false</property>
-			<property name="widgetLabelScroll.4">false</property>
-			<property name="widgetLabelScroll.5">false</property>
-			<property name="widgetLabelScroll.6">false</property>
-			<property name="widgetShowTextbox">true</property>
-			<property name="widgetShowTextbox.2">true</property>
-			<property name="widgetShowTextbox.3">true</property>
-			<property name="widgetShowTextbox.4">true</property>
-			<property name="widgetShowTextbox.5">true</property>
-			<property name="widgetShowTextbox.6">true</property>
-			<property name="widgetDouble">false</property>
-			<property name="widgetDouble.2">false</property>
-			<property name="widgetDouble.3">false</property>
-			<property name="widgetDouble.4">false</property>
-			<property name="widgetDouble.5">false</property>
-			<property name="widgetDouble.6">false</property>
-			<property name="widgetTriple">false</property>
-			<property name="widgetTriple.2">false</property>
-			<property name="widgetTriple.3">false</property>
-			<property name="widgetTriple.4">false</property>
-			<property name="widgetTriple.5">false</property>
-			<property name="widgetTriple.6">false</property>
-			<property name="widgetType">none</property>
-			<property name="widgetType.2">none</property>
-			<property name="widgetType.3">none</property>
-			<property name="widgetType.4">none</property>
-			<property name="widgetType.5">none</property>
-			<property name="widgetType.6">none</property>
-			<property name="widgetContent">default</property>
-			<property name="widgetContent.2">default</property>
-			<property name="widgetContent.3">default</property>
-			<property name="widgetContent.4">default</property>
-			<property name="widgetContent.5">default</property>
-			<property name="widgetContent.6">default</property>
-			<visible>System.GetBool(gamesgeneral.enable)</visible>
-			<onclick>ActivateWindow(games,root)</onclick>
-			<property name="path">ActivateWindow(games,root)</property>
-			<property name="list">root</property>
-			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="submenuVisibility">num-15016</property>
-			<property name="group">mainmenu</property>
+			<visible>False</visible>
+			<onclick>noop</onclick>
 			<property name="hasSubmenu">False</property>
 		</item>
 		<item id="11">
@@ -776,73 +520,8 @@
 			<thumb>$VAR[Favourites.Art]</thumb>
 			<property name="labelID">1036</property>
 			<property name="defaultID">favorites</property>
-			<property name="background">$VAR[Favourites.Art]</property>
-			<property name="widgetTarget">false</property>
-			<property name="widgetTarget.2">false</property>
-			<property name="widgetTarget.3">false</property>
-			<property name="widgetTarget.4">false</property>
-			<property name="widgetTarget.5">false</property>
-			<property name="widgetTarget.6">false</property>
-			<property name="horizontalWidgetPos">Standard</property>
-			<property name="EHPlaylistFanart">false</property>
-			<property name="widgetTwoShelves">false</property>
-			<property name="widgetThreeShelves">false</property>
-			<property name="widgetThreeShelvesLarge">false</property>
-			<property name="widgetArtwork">Poster</property>
-			<property name="widgetArtwork.2">Poster</property>
-			<property name="widgetArtwork.3">Poster</property>
-			<property name="widgetArtwork.4">Poster</property>
-			<property name="widgetArtwork.5">Poster</property>
-			<property name="widgetArtwork.6">Poster</property>
-			<property name="widgetPosterLabel">false</property>
-			<property name="widgetPosterLabel.2">false</property>
-			<property name="widgetPosterLabel.3">false</property>
-			<property name="widgetPosterLabel.4">false</property>
-			<property name="widgetPosterLabel.5">false</property>
-			<property name="widgetPosterLabel.6">false</property>
-			<property name="widgetLabelScroll">false</property>
-			<property name="widgetLabelScroll.2">false</property>
-			<property name="widgetLabelScroll.3">false</property>
-			<property name="widgetLabelScroll.4">false</property>
-			<property name="widgetLabelScroll.5">false</property>
-			<property name="widgetLabelScroll.6">false</property>
-			<property name="widgetShowTextbox">true</property>
-			<property name="widgetShowTextbox.2">true</property>
-			<property name="widgetShowTextbox.3">true</property>
-			<property name="widgetShowTextbox.4">true</property>
-			<property name="widgetShowTextbox.5">true</property>
-			<property name="widgetShowTextbox.6">true</property>
-			<property name="widgetDouble">false</property>
-			<property name="widgetDouble.2">false</property>
-			<property name="widgetDouble.3">false</property>
-			<property name="widgetDouble.4">false</property>
-			<property name="widgetDouble.5">false</property>
-			<property name="widgetDouble.6">false</property>
-			<property name="widgetTriple">false</property>
-			<property name="widgetTriple.2">false</property>
-			<property name="widgetTriple.3">false</property>
-			<property name="widgetTriple.4">false</property>
-			<property name="widgetTriple.5">false</property>
-			<property name="widgetTriple.6">false</property>
-			<property name="widgetType">none</property>
-			<property name="widgetType.2">none</property>
-			<property name="widgetType.3">none</property>
-			<property name="widgetType.4">none</property>
-			<property name="widgetType.5">none</property>
-			<property name="widgetType.6">none</property>
-			<property name="widgetContent">default</property>
-			<property name="widgetContent.2">default</property>
-			<property name="widgetContent.3">default</property>
-			<property name="widgetContent.4">default</property>
-			<property name="widgetContent.5">default</property>
-			<property name="widgetContent.6">default</property>
-			<onclick>Skin.SetString(FocusedMenu.Background,$INFO[Container(300).ListItem.Property(Background)])</onclick>
-			<property name="path">Skin.SetString(FocusedMenu.Background,$INFO[Container(300).ListItem.Property(Background)])</property>
-			<property name="list">Skin.SetString(FocusedMenu.Background,$INFO[Container(300).ListItem.Property(Background)])</property>
-			<onclick>ActivateWindow(favourites)</onclick>
-			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="submenuVisibility">num-1036</property>
-			<property name="group">mainmenu</property>
+			<visible>False</visible>
+			<onclick>noop</onclick>
 			<property name="hasSubmenu">False</property>
 		</item>
 		<item id="12">
@@ -853,73 +532,8 @@
 			<thumb>$VAR[DVD.Art]</thumb>
 			<property name="labelID">427</property>
 			<property name="defaultID">DVD</property>
-			<property name="background">$VAR[DVD.Art]</property>
-			<property name="widgetTarget">false</property>
-			<property name="widgetTarget.2">false</property>
-			<property name="widgetTarget.3">false</property>
-			<property name="widgetTarget.4">false</property>
-			<property name="widgetTarget.5">false</property>
-			<property name="widgetTarget.6">false</property>
-			<property name="horizontalWidgetPos">Standard</property>
-			<property name="EHPlaylistFanart">false</property>
-			<property name="widgetTwoShelves">false</property>
-			<property name="widgetThreeShelves">false</property>
-			<property name="widgetThreeShelvesLarge">false</property>
-			<property name="widgetArtwork">Poster</property>
-			<property name="widgetArtwork.2">Poster</property>
-			<property name="widgetArtwork.3">Poster</property>
-			<property name="widgetArtwork.4">Poster</property>
-			<property name="widgetArtwork.5">Poster</property>
-			<property name="widgetArtwork.6">Poster</property>
-			<property name="widgetPosterLabel">false</property>
-			<property name="widgetPosterLabel.2">false</property>
-			<property name="widgetPosterLabel.3">false</property>
-			<property name="widgetPosterLabel.4">false</property>
-			<property name="widgetPosterLabel.5">false</property>
-			<property name="widgetPosterLabel.6">false</property>
-			<property name="widgetLabelScroll">false</property>
-			<property name="widgetLabelScroll.2">false</property>
-			<property name="widgetLabelScroll.3">false</property>
-			<property name="widgetLabelScroll.4">false</property>
-			<property name="widgetLabelScroll.5">false</property>
-			<property name="widgetLabelScroll.6">false</property>
-			<property name="widgetShowTextbox">true</property>
-			<property name="widgetShowTextbox.2">true</property>
-			<property name="widgetShowTextbox.3">true</property>
-			<property name="widgetShowTextbox.4">true</property>
-			<property name="widgetShowTextbox.5">true</property>
-			<property name="widgetShowTextbox.6">true</property>
-			<property name="widgetDouble">false</property>
-			<property name="widgetDouble.2">false</property>
-			<property name="widgetDouble.3">false</property>
-			<property name="widgetDouble.4">false</property>
-			<property name="widgetDouble.5">false</property>
-			<property name="widgetDouble.6">false</property>
-			<property name="widgetTriple">false</property>
-			<property name="widgetTriple.2">false</property>
-			<property name="widgetTriple.3">false</property>
-			<property name="widgetTriple.4">false</property>
-			<property name="widgetTriple.5">false</property>
-			<property name="widgetTriple.6">false</property>
-			<property name="widgetType">none</property>
-			<property name="widgetType.2">none</property>
-			<property name="widgetType.3">none</property>
-			<property name="widgetType.4">none</property>
-			<property name="widgetType.5">none</property>
-			<property name="widgetType.6">none</property>
-			<property name="widgetContent">default</property>
-			<property name="widgetContent.2">default</property>
-			<property name="widgetContent.3">default</property>
-			<property name="widgetContent.4">default</property>
-			<property name="widgetContent.5">default</property>
-			<property name="widgetContent.6">default</property>
-			<visible>System.HasMediaDVD</visible>
-			<onclick>XBMC.PlayDVD()</onclick>
-			<property name="path">XBMC.PlayDVD()</property>
-			<property name="list">XBMC.PlayDVD()</property>
-			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="submenuVisibility">num-427</property>
-			<property name="group">mainmenu</property>
+			<visible>False</visible>
+			<onclick>noop</onclick>
 			<property name="hasSubmenu">True</property>
 		</item>
 		<item id="13">
@@ -930,76 +544,8 @@
 			<thumb>$VAR[Search.Art]</thumb>
 			<property name="labelID">137</property>
 			<property name="defaultID">search</property>
-			<property name="background">$VAR[Search.Art]</property>
-			<property name="widgetTarget">false</property>
-			<property name="widgetTarget.2">false</property>
-			<property name="widgetTarget.3">false</property>
-			<property name="widgetTarget.4">false</property>
-			<property name="widgetTarget.5">false</property>
-			<property name="widgetTarget.6">false</property>
-			<property name="horizontalWidgetPos">Standard</property>
-			<property name="EHPlaylistFanart">false</property>
-			<property name="widgetTwoShelves">false</property>
-			<property name="widgetThreeShelves">false</property>
-			<property name="widgetThreeShelvesLarge">false</property>
-			<property name="widgetArtwork">Poster</property>
-			<property name="widgetArtwork.2">Poster</property>
-			<property name="widgetArtwork.3">Poster</property>
-			<property name="widgetArtwork.4">Poster</property>
-			<property name="widgetArtwork.5">Poster</property>
-			<property name="widgetArtwork.6">Poster</property>
-			<property name="widgetPosterLabel">false</property>
-			<property name="widgetPosterLabel.2">false</property>
-			<property name="widgetPosterLabel.3">false</property>
-			<property name="widgetPosterLabel.4">false</property>
-			<property name="widgetPosterLabel.5">false</property>
-			<property name="widgetPosterLabel.6">false</property>
-			<property name="widgetLabelScroll">false</property>
-			<property name="widgetLabelScroll.2">false</property>
-			<property name="widgetLabelScroll.3">false</property>
-			<property name="widgetLabelScroll.4">false</property>
-			<property name="widgetLabelScroll.5">false</property>
-			<property name="widgetLabelScroll.6">false</property>
-			<property name="widgetShowTextbox">true</property>
-			<property name="widgetShowTextbox.2">true</property>
-			<property name="widgetShowTextbox.3">true</property>
-			<property name="widgetShowTextbox.4">true</property>
-			<property name="widgetShowTextbox.5">true</property>
-			<property name="widgetShowTextbox.6">true</property>
-			<property name="widgetDouble">false</property>
-			<property name="widgetDouble.2">false</property>
-			<property name="widgetDouble.3">false</property>
-			<property name="widgetDouble.4">false</property>
-			<property name="widgetDouble.5">false</property>
-			<property name="widgetDouble.6">false</property>
-			<property name="widgetTriple">false</property>
-			<property name="widgetTriple.2">false</property>
-			<property name="widgetTriple.3">false</property>
-			<property name="widgetTriple.4">false</property>
-			<property name="widgetTriple.5">false</property>
-			<property name="widgetTriple.6">false</property>
-			<property name="widgetType">none</property>
-			<property name="widgetType.2">none</property>
-			<property name="widgetType.3">none</property>
-			<property name="widgetType.4">none</property>
-			<property name="widgetType.5">none</property>
-			<property name="widgetType.6">none</property>
-			<property name="widgetContent">default</property>
-			<property name="widgetContent.2">default</property>
-			<property name="widgetContent.3">default</property>
-			<property name="widgetContent.4">default</property>
-			<property name="widgetContent.5">default</property>
-			<property name="widgetContent.6">default</property>
-			<onclick condition="!Skin.HasSetting(Enable.GlobalSearch) | !System.HasAddon(script.globalsearch)">SetProperty(CustomSearch,1,home)</onclick>
-			<property name="path">SetProperty(CustomSearch,1,home)</property>
-			<property name="list">SetProperty(CustomSearch,1,home)</property>
-			<onclick condition="!Skin.HasSetting(Enable.GlobalSearch) | !System.HasAddon(script.globalsearch)">Skin.Reset(CustomSearchTerm)</onclick>
-			<onclick condition="!Skin.HasSetting(Enable.GlobalSearch) | !System.HasAddon(script.globalsearch)">Skin.SetString(CustomSearchTerm)</onclick>
-			<onclick condition="!Skin.HasSetting(Enable.GlobalSearch) | !System.HasAddon(script.globalsearch)">ActivateWindow(1122)</onclick>
-			<onclick condition="Skin.HasSetting(Enable.GlobalSearch) + System.HasAddon(script.globalsearch)">RunScript(script.globalsearch)</onclick>
-			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="submenuVisibility">num-137</property>
-			<property name="group">mainmenu</property>
+			<visible>False</visible>
+			<onclick>noop</onclick>
 			<property name="hasSubmenu">True</property>
 		</item>
 		<item id="14">
@@ -1010,7 +556,8 @@
 			<thumb>$VAR[Weather.Art]</thumb>
 			<property name="labelID">8</property>
 			<property name="defaultID">weather</property>
-			<property name="background">$VAR[Weather.Art]</property>
+			<property name="background">Weather.Fanart</property>
+			<property name="backgroundName">Conditional weather</property>
 			<property name="widgetTarget">false</property>
 			<property name="widgetTarget.2">false</property>
 			<property name="widgetTarget.3">false</property>
@@ -1087,7 +634,8 @@
 			<thumb>$VAR[Settings.Art]</thumb>
 			<property name="labelID">5</property>
 			<property name="defaultID">settings</property>
-			<property name="background">$VAR[Settings.Art]</property>
+			<property name="background">Kodi.Global.Fanart</property>
+			<property name="backgroundName">Random fanart (Kodi)</property>
 			<property name="widgetTarget">false</property>
 			<property name="widgetTarget.2">false</property>
 			<property name="widgetTarget.3">false</property>
@@ -1163,7 +711,8 @@
 			<thumb>$VAR[Quit.Art]</thumb>
 			<property name="labelID">33060</property>
 			<property name="defaultID">power</property>
-			<property name="background">$VAR[Quit.Art]</property>
+			<property name="background">Kodi.Global.Fanart</property>
+			<property name="backgroundName">Random fanart (Kodi)</property>
 			<property name="widgetTarget">false</property>
 			<property name="widgetTarget.2">false</property>
 			<property name="widgetTarget.3">false</property>

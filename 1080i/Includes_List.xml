@@ -93,7 +93,7 @@
 					<posy>0</posy>
 					<height>$PARAM[itemheight]</height>
                     <width>670</width>
-					<texture border="4" colordiffuse="$VAR[HighlightColor]">WhiteRoundedcbxST2.png</texture>
+					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
 				    <animation effect="fade" start="100" end="50" time="100" condition="!Control.HasFocus($PARAM[id])">Conditional</animation>
 			    </control>
                 <control type="label" description="Main Label">
@@ -102,9 +102,9 @@
 				    <width>600</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -115,9 +115,9 @@
 				    <width>475</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -130,9 +130,9 @@
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>!Skin.HasSetting(Hide.Label2.Lists) + !Container.Content(albums)</visible>
@@ -145,9 +145,9 @@
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>!Skin.HasSetting(Hide.Label2.Lists) + Container.Content(albums)</visible>
@@ -244,7 +244,7 @@
 					<posy>0</posy>
 					<height>$PARAM[itemheight]</height>
                     <width>680</width>
-					<texture border="4" colordiffuse="$VAR[HighlightColor]">WhiteRoundedcbxST2.png</texture>
+					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
 				    <animation effect="fade" start="100" end="50" time="100" condition="!Control.HasFocus($PARAM[id])">Conditional</animation>
 			    </control>
                 <control type="label" description="Main Label">
@@ -253,9 +253,9 @@
 				    <width>610</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>![Container.Content(tvshows) | Container.Content(seasons)] + Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -266,9 +266,9 @@
 				    <width>590</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>[Container.Content(tvshows) | Container.Content(seasons)] + Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -279,9 +279,9 @@
 				    <width>440</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>[Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -292,9 +292,9 @@
 				    <width>465</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>![Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -307,9 +307,9 @@
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>[Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -322,9 +322,9 @@
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>![Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -390,7 +390,7 @@
 					<posy>0</posy>
 					<height>$PARAM[itemheight]</height>
                     <width>640</width>
-					<texture border="4" colordiffuse="$VAR[HighlightColor]">WhiteRoundedcbxST2.png</texture>
+					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
 				    <animation effect="fade" start="100" end="50" time="100" condition="!Control.HasFocus($PARAM[id])">Conditional</animation>
 			    </control>
                 <control type="label" description="Main Label">
@@ -399,9 +399,9 @@
 				    <width>600</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -412,9 +412,9 @@
 				    <width>465</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -427,9 +427,9 @@
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -526,7 +526,7 @@
 					<posy>0</posy>
 					<height>$PARAM[itemheight]</height>
                     <width>680</width>
-					<texture border="4" colordiffuse="$VAR[HighlightColor]">WhiteRoundedcbxST2.png</texture>
+					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
 				    <animation effect="fade" start="100" end="50" time="100" condition="!Control.HasFocus($PARAM[id])">Conditional</animation>
 			    </control>
                 <control type="label" description="Main Label">
@@ -535,9 +535,9 @@
 				    <width>600</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>![Container.Content(tvshows) | Container.Content(seasons)] + Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -548,9 +548,9 @@
 				    <width>580</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>[Container.Content(tvshows) | Container.Content(seasons)] + Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -561,9 +561,9 @@
 				    <width>465</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>![Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -574,9 +574,9 @@
 				    <width>440</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>[Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -589,9 +589,9 @@
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>![Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -604,9 +604,9 @@
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>[Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -711,7 +711,7 @@
 				    <posy>1</posy>
 					<height>$PARAM[itemheight]</height>
 				    <width>1320</width>
-					<texture border="4" colordiffuse="$VAR[HighlightColor]">WhiteRoundedcbxST2.png</texture>
+					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
 				    <animation effect="fade" start="100" end="50" time="100" condition="!Control.HasFocus($PARAM[id])">Conditional</animation>
 			    </control>
 			    <control type="label">
@@ -721,9 +721,9 @@
 				    <height>$PARAM[itemheight]</height>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
 					<visible>!Skin.HasSetting(Hide.Label2.Lists) + ![Container.Content(albums) | Container.Content(songs)]</visible>
@@ -735,9 +735,9 @@
 				    <height>$PARAM[itemheight]</height>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
 					<visible>!Skin.HasSetting(Hide.Label2.Lists) + [Container.Content(albums) | Container.Content(songs)]</visible>
@@ -749,9 +749,9 @@
 				    <height>$PARAM[itemheight]</height>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
 					<visible>Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -764,9 +764,9 @@
 				    <scroll>false</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>!Skin.HasSetting(Hide.Label2.Lists) + ![Container.Content(tvshows) | Container.Content(seasons) | Container.Content(albums) | Container.Content(songs)]</visible>
@@ -779,9 +779,9 @@
 				    <scroll>false</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>!Skin.HasSetting(Hide.Label2.Lists) + [Container.Content(tvshows) | Container.Content(seasons)]</visible>
@@ -794,9 +794,9 @@
 				    <scroll>false</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>!Skin.HasSetting(Hide.Label2.Lists) + [Container.Content(albums) | Container.Content(songs)]</visible>
@@ -863,7 +863,7 @@
 				    <posy>1</posy>
 					<height>$PARAM[itemheight]</height>
 				    <width>1320</width>
-					<texture border="4" colordiffuse="$VAR[HighlightColor]">WhiteRoundedcbxST2.png</texture>
+					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
 				    <animation effect="fade" start="100" end="50" time="100" condition="!Control.HasFocus($PARAM[id])">Conditional</animation>
 			    </control>
 			    <control type="label">
@@ -873,9 +873,9 @@
 				    <height>$PARAM[itemheight]</height>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
 					<visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -887,9 +887,9 @@
 				    <height>$PARAM[itemheight]</height>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
 					<visible>Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -902,9 +902,9 @@
 				    <scroll>false</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -969,7 +969,7 @@
 					<posy>0</posy>
 					<height>$PARAM[itemheight]</height>
                     <width>1070</width>
-					<texture border="4" colordiffuse="$VAR[HighlightColor]">WhiteRoundedcbxST2.png</texture>
+					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
 				    <animation effect="fade" start="100" end="50" time="100" condition="!Control.HasFocus($PARAM[id])">Conditional</animation>
 			    </control>
                 <control type="label" description="Main Label">
@@ -978,9 +978,9 @@
 				    <width>1000</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -991,9 +991,9 @@
 				    <width>875</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -1006,9 +1006,9 @@
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -1104,7 +1104,7 @@
 					<posy>0</posy>
 					<height>$PARAM[itemheight]</height>
                     <width>670</width>
-					<texture border="4" colordiffuse="$VAR[HighlightColor]">WhiteRoundedcbxST2.png</texture>
+					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
 				    <animation effect="fade" start="100" end="50" time="100" condition="!Control.HasFocus($PARAM[id])">Conditional</animation>
 			    </control>
                 <control type="label" description="Main Label">
@@ -1113,9 +1113,9 @@
 				    <width>600</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -1126,9 +1126,9 @@
 				    <width>475</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -1141,9 +1141,9 @@
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>!Skin.HasSetting(Hide.Label2.Lists) + !Container.Content(albums)</visible>
@@ -1156,9 +1156,9 @@
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>!Skin.HasSetting(Hide.Label2.Lists) + Container.Content(albums)</visible>
@@ -1255,7 +1255,7 @@
 					<posy>0</posy>
 					<height>$PARAM[itemheight]</height>
                     <width>680</width>
-					<texture border="4" colordiffuse="$VAR[HighlightColor]">WhiteRoundedcbxST2.png</texture>
+					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
 				    <animation effect="fade" start="100" end="50" time="100" condition="!Control.HasFocus($PARAM[id])">Conditional</animation>
 			    </control>
                 <control type="label" description="Main Label">
@@ -1264,9 +1264,9 @@
 				    <width>610</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>![Container.Content(tvshows) | Container.Content(seasons)] + Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -1277,9 +1277,9 @@
 				    <width>580</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>[Container.Content(tvshows) | Container.Content(seasons)] + Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -1290,9 +1290,9 @@
 				    <width>465</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>![Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -1303,9 +1303,9 @@
 				    <width>440</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>[Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -1318,9 +1318,9 @@
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>[Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -1333,9 +1333,9 @@
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>![Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -1401,7 +1401,7 @@
 					<posy>0</posy>
 					<height>$PARAM[itemheight]</height>
                     <width>640</width>
-					<texture border="4" colordiffuse="$VAR[HighlightColor]">WhiteRoundedcbxST2.png</texture>
+					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
 				    <animation effect="fade" start="100" end="50" time="100" condition="!Control.HasFocus($PARAM[id])">Conditional</animation>
 			    </control>
                 <control type="label" description="Main Label">
@@ -1410,9 +1410,9 @@
 				    <width>600</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -1423,9 +1423,9 @@
 				    <width>465</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -1438,9 +1438,9 @@
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -1517,7 +1517,7 @@
 					<posy>0</posy>
 					<height>$PARAM[itemheight]</height>
                     <width>680</width>
-					<texture border="4" colordiffuse="$VAR[HighlightColor]">WhiteRoundedcbxST2.png</texture>
+					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
 				    <animation effect="fade" start="100" end="50" time="100" condition="!Control.HasFocus($PARAM[id])">Conditional</animation>
 			    </control>
                 <control type="label" description="Main Label">
@@ -1526,9 +1526,9 @@
 				    <width>600</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -1539,9 +1539,9 @@
 				    <width>465</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -1554,9 +1554,9 @@
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>!Skin.HasSetting(Hide.Label2.Lists) + ![Container.Content(tvshows) | Container.Content(seasons)]</visible>
@@ -1569,9 +1569,9 @@
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>!Skin.HasSetting(Hide.Label2.Lists) + [Container.Content(tvshows) | Container.Content(seasons)]</visible>
@@ -1676,7 +1676,7 @@
 				    <posy>1</posy>
 					<height>$PARAM[itemheight]</height>
 				    <width>1520</width>
-					<texture border="4" colordiffuse="$VAR[HighlightColor]">WhiteRoundedcbxST2.png</texture>
+					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
 				    <animation effect="fade" start="100" end="50" time="100" condition="!Control.HasFocus($PARAM[id])">Conditional</animation>
 			    </control>
 			    <control type="label">
@@ -1686,9 +1686,9 @@
 				    <height>$PARAM[itemheight]</height>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
 					<visible>!Skin.HasSetting(Hide.Label2.Lists) + ![Container.Content(albums) | Container.Content(songs)]</visible>
@@ -1700,9 +1700,9 @@
 				    <height>$PARAM[itemheight]</height>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
 					<visible>!Skin.HasSetting(Hide.Label2.Lists) + [Container.Content(albums) | Container.Content(songs)]</visible>
@@ -1714,9 +1714,9 @@
 				    <height>$PARAM[itemheight]</height>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
 					<visible>Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -1729,9 +1729,9 @@
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>[Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -1744,9 +1744,9 @@
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>![Container.Content(tvshows) | Container.Content(seasons) | Container.Content(albums) | Container.Content(songs)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -1759,9 +1759,9 @@
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>[Container.Content(albums) | Container.Content(songs)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -1828,7 +1828,7 @@
 				    <posy>1</posy>
 					<height>$PARAM[itemheight]</height>
 				    <width>1520</width>
-					<texture border="4" colordiffuse="$VAR[HighlightColor]">WhiteRoundedcbxST2.png</texture>
+					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
 				    <animation effect="fade" start="100" end="50" time="100" condition="!Control.HasFocus($PARAM[id])">Conditional</animation>
 			    </control>
 			    <control type="label">
@@ -1838,9 +1838,9 @@
 				    <height>$PARAM[itemheight]</height>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
 					<visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -1852,9 +1852,9 @@
 				    <height>$PARAM[itemheight]</height>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
 					<visible>Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -1867,9 +1867,9 @@
 				    <scroll>false</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -1934,7 +1934,7 @@
 					<posy>0</posy>
 					<height>$PARAM[itemheight]</height>
                     <width>1270</width>
-					<texture border="4" colordiffuse="$VAR[HighlightColor]">WhiteRoundedcbxST2.png</texture>
+					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
 				    <animation effect="fade" start="100" end="50" time="100" condition="!Control.HasFocus($PARAM[id])">Conditional</animation>
 			    </control>
                 <control type="label" description="Main Label">
@@ -1943,9 +1943,9 @@
 				    <width>1200</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -1956,9 +1956,9 @@
 				    <width>1075</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -1971,9 +1971,9 @@
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -2066,7 +2066,7 @@
 					<posy>0</posy>
 					<height>$PARAM[itemheight]</height>
                     <width>670</width>
-					<texture border="4" colordiffuse="$VAR[HighlightColor]">WhiteRoundedcbxST2.png</texture>
+					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
 				    <animation effect="fade" start="100" end="50" time="100" condition="!Control.HasFocus($PARAM[id])">Conditional</animation>
 			    </control>
                 <control type="label" description="Main Label">
@@ -2075,9 +2075,9 @@
 				    <width>600</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -2088,9 +2088,9 @@
 				    <width>475</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -2103,9 +2103,9 @@
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>!Skin.HasSetting(Hide.Label2.Lists) + ![Container.Content(albums) | Container.Content(images)]</visible>
@@ -2118,9 +2118,9 @@
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>!Skin.HasSetting(Hide.Label2.Lists) + [Container.Content(albums) | Container.Content(images)]</visible>
@@ -2217,7 +2217,7 @@
 					<posy>0</posy>
 					<height>$PARAM[itemheight]</height>
                     <width>680</width>
-					<texture border="4" colordiffuse="$VAR[HighlightColor]">WhiteRoundedcbxST2.png</texture>
+					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
 				    <animation effect="fade" start="100" end="50" time="100" condition="!Control.HasFocus($PARAM[id])">Conditional</animation>
 			    </control>
                 <control type="label" description="Main Label">
@@ -2226,9 +2226,9 @@
 				    <width>610</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>![Container.Content(tvshows) | Container.Content(seasons)] + Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -2239,9 +2239,9 @@
 				    <width>590</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>[Container.Content(tvshows) | Container.Content(seasons)] + Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -2252,9 +2252,9 @@
 				    <width>440</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>[Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -2265,9 +2265,9 @@
 				    <width>465</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>![Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -2280,9 +2280,9 @@
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>[Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -2295,9 +2295,9 @@
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>![Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -2376,7 +2376,7 @@
 					<posy>0</posy>
 					<height>$PARAM[itemheight]</height>
                     <width>640</width>
-					<texture border="4" colordiffuse="$VAR[HighlightColor]">WhiteRoundedcbxST2.png</texture>
+					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
 				    <animation effect="fade" start="100" end="50" time="100" condition="!Control.HasFocus($PARAM[id])">Conditional</animation>
 			    </control>
                 <control type="label" description="Main Label">
@@ -2385,9 +2385,9 @@
 				    <width>600</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -2398,9 +2398,9 @@
 				    <width>455</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -2413,9 +2413,9 @@
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>!Skin.HasSetting(Hide.Label2.Lists) + ![Container.Content(albums) | Container.Content(images)]</visible>
@@ -2428,9 +2428,9 @@
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>!Skin.HasSetting(Hide.Label2.Lists) + [Container.Content(albums) | Container.Content(images)]</visible>
@@ -2527,7 +2527,7 @@
 					<posy>0</posy>
 					<height>$PARAM[itemheight]</height>
                     <width>640</width>
-					<texture border="4" colordiffuse="$VAR[HighlightColor]">WhiteRoundedcbxST2.png</texture>
+					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
 				    <animation effect="fade" start="100" end="50" time="100" condition="!Control.HasFocus($PARAM[id])">Conditional</animation>
 			    </control>
                 <control type="label" description="Main Label">
@@ -2536,9 +2536,9 @@
 				    <width>580</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>![Container.Content(tvshows) | Container.Content(seasons)] + Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -2549,9 +2549,9 @@
 				    <width>560</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>[Container.Content(tvshows) | Container.Content(seasons)] + Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -2562,9 +2562,9 @@
 				    <width>465</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>![Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -2575,9 +2575,9 @@
 				    <width>410</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>[Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -2590,9 +2590,9 @@
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>![Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -2605,9 +2605,9 @@
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>[Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -2712,7 +2712,7 @@
 				    <posy>1</posy>
 					<height>$PARAM[itemheight]</height>
 				    <width>1320</width>
-					<texture border="4" colordiffuse="$VAR[HighlightColor]">WhiteRoundedcbxST2.png</texture>
+					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
 				    <animation effect="fade" start="100" end="50" time="100" condition="!Control.HasFocus($PARAM[id])">Conditional</animation>
 			    </control>
 			    <control type="label">
@@ -2722,9 +2722,9 @@
 				    <height>$PARAM[itemheight]</height>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
 					<visible>!Skin.HasSetting(Hide.Label2.Lists) + ![Container.Content(albums) | Container.Content(songs)]</visible>
@@ -2736,9 +2736,9 @@
 				    <height>$PARAM[itemheight]</height>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
 					<visible>!Skin.HasSetting(Hide.Label2.Lists) + [Container.Content(albums) | Container.Content(songs)]</visible>
@@ -2750,9 +2750,9 @@
 				    <height>$PARAM[itemheight]</height>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
 					<visible>Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -2765,9 +2765,9 @@
 				    <scroll>false</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>!Skin.HasSetting(Hide.Label2.Lists) + ![Container.Content(tvshows) | Container.Content(seasons) | Container.Content(albums) | Container.Content(songs)]</visible>
@@ -2780,9 +2780,9 @@
 				    <scroll>false</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>!Skin.HasSetting(Hide.Label2.Lists) + [Container.Content(tvshows) | Container.Content(seasons)]</visible>
@@ -2795,9 +2795,9 @@
 				    <scroll>false</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>!Skin.HasSetting(Hide.Label2.Lists) + [Container.Content(albums) | Container.Content(songs)]</visible>
@@ -2864,7 +2864,7 @@
 				    <posy>1</posy>
 					<height>$PARAM[itemheight]</height>
 				    <width>1320</width>
-					<texture border="4" colordiffuse="$VAR[HighlightColor]">WhiteRoundedcbxST2.png</texture>
+					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
 				    <animation effect="fade" start="100" end="50" time="100" condition="!Control.HasFocus($PARAM[id])">Conditional</animation>
 			    </control>
 			    <control type="label">
@@ -2874,9 +2874,9 @@
 				    <height>$PARAM[itemheight]</height>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
 					<visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -2888,9 +2888,9 @@
 				    <height>$PARAM[itemheight]</height>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
 					<visible>Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -2903,9 +2903,9 @@
 				    <scroll>false</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -2970,7 +2970,7 @@
 					<posy>0</posy>
 					<height>$PARAM[itemheight]</height>
                     <width>1070</width>
-					<texture border="4" colordiffuse="$VAR[HighlightColor]">WhiteRoundedcbxST2.png</texture>
+					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
 				    <animation effect="fade" start="100" end="50" time="100" condition="!Control.HasFocus($PARAM[id])">Conditional</animation>
 			    </control>
                 <control type="label" description="Main Label">
@@ -2979,9 +2979,9 @@
 				    <width>1000</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -2992,9 +2992,9 @@
 				    <width>875</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -3007,9 +3007,9 @@
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
 					<font>$PARAM[ListLabel2Font]</font>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<align>right</align>
 					<label>$VAR[MediaListLabel2]</label>
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
@@ -3043,7 +3043,7 @@
 				<posx>$PARAM[left]</posx>
 				<width>1010</width>
 				<height>104</height>
-				<texture border="4" colordiffuse="$VAR[HighlightColor]">WhiteRoundedcbxST2.png</texture>
+				<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
 				<animation effect="fade" start="105" end="50" time="105" condition="!Control.HasFocus(52)">Conditional</animation>
 			</control>
 			<control type="image">
@@ -3070,8 +3070,8 @@
 		        <height>40</height>
 		        <width>860</width>
 		        <font>font16</font>
-		        <textcolor>$VAR[FocusedTextColor]</textcolor>
-		        <shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+		        <textcolor>$VAR[HighlightColor]</textcolor>
+		        <shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 		        <scroll>$VAR[LongLabelScroll]</scroll>
 		        <aligny>center</aligny>
 		        <label>$VAR[panelheading]</label>
@@ -3109,8 +3109,8 @@
 		        <aligny>center</aligny>
 		        <align>left</align>
 				<scroll>$VAR[LongLabelScroll]</scroll>
-		        <textcolor>$VAR[FocusedTextColor]</textcolor>
-		        <shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+		        <textcolor>$VAR[HighlightColor]</textcolor>
+		        <shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 		        <label>$VAR[panelsubheading]</label>
 	        </control>
 		    <control type="group">
@@ -3191,7 +3191,7 @@
 					<posy>0</posy>
 					<height>$PARAM[itemheight]</height>
                     <width>570</width>
-					<texture border="4" colordiffuse="$VAR[HighlightColor]">WhiteRoundedcbxST2.png</texture>
+					<texture border="4" colordiffuse="$VAR[SecondaryColor]">WhiteRoundedcbxST2.png</texture>
 				    <animation effect="fade" start="100" end="50" time="100" condition="!Control.HasFocus($PARAM[id])">Conditional</animation>
 			    </control>
                 <control type="label" description="Main Label">
@@ -3200,9 +3200,9 @@
 				    <width>531</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
 					<visible>![Container.Content(tvshows) | Container.Content(seasons)]</visible>
@@ -3213,9 +3213,9 @@
 				    <width>511</width>
 				    <scroll>$VAR[LongLabelScroll]</scroll>
 					<textoffsetx>16</textoffsetx>
-					<textcolor>$VAR[FocusedTextColor]</textcolor>
+					<textcolor>$VAR[HighlightColor]</textcolor>
 					<selectedcolor>$VAR[FocusedTextColor]</selectedcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <font>$PARAM[ListLabelFont]</font>
 					<label>$VAR[MediaListLabel]</label>
 					<visible>[Container.Content(tvshows) | Container.Content(seasons)]</visible>

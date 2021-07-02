@@ -218,6 +218,7 @@
                     <height>40</height>
                     <font>ListDetails</font>
                     <textcolor>$VAR[HighlightColor]</textcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <align>left</align>
                     <label>$INFO[ListItem.Rating(imdb)]$INFO[ListItem.Votes(imdb), (, $LOCALIZE[205])]</label>
                     <visible>!String.IsEmpty(ListItem.Rating(imdb)) + Skin.HasSetting(ShowRatingIMDb)</visible>
@@ -227,6 +228,7 @@
                     <height>40</height>
                     <font>ListDetails</font>
                     <textcolor>$VAR[HighlightColor]</textcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <align>left</align>
                     <label>$INFO[ListItem.Rating]$INFO[ListItem.Votes, (, $LOCALIZE[205])]</label>
                     <visible>String.IsEmpty(ListItem.Rating(imdb)) + !String.IsEmpty(ListItem.Rating) + !String.IsEmpty(ListItem.Votes) + !String.IsEqual(ListItem.Votes,0) + Skin.HasSetting(ShowRatingMainVideoInfo)</visible>
@@ -236,6 +238,7 @@
                     <height>40</height>
                     <font>ListDetails</font>
                     <textcolor>$VAR[HighlightColor]</textcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <align>left</align>
                     <label>$INFO[ListItem.Rating]</label>
                     <visible>String.IsEmpty(ListItem.Rating(imdb)) + !String.IsEmpty(ListItem.Rating) + [String.IsEmpty(ListItem.Votes) | String.IsEqual(ListItem.Votes,0)] + Skin.HasSetting(ShowRatingMainVideoInfo)</visible>
@@ -252,6 +255,7 @@
                     <font>ListDetails</font>
                     <align>left</align>
                     <textcolor>$VAR[HighlightColor]</textcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <label>[B]$INFO[ListItem.Top250,#][/B]</label>
                 </control>
             </control>
@@ -272,6 +276,7 @@
                     <width>60</width>
                     <font>ListDetails</font>
                     <textcolor>$VAR[HighlightColor]</textcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <label>$VAR[RottenFreshLabelVar]%</label>
                 </control>
             </control>
@@ -292,6 +297,7 @@
                     <width>60</width>
                     <font>ListDetails</font>
                     <textcolor>$VAR[HighlightColor]</textcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <label>$VAR[RottenFreshAudienceLabelVar]%</label>
                 </control>
             </control>
@@ -312,6 +318,7 @@
                     <width>50</width>
                     <font>ListDetails</font>
                     <textcolor>$VAR[HighlightColor]</textcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <label>$VAR[MetacriticLabelVar]</label>
                 </control>
             </control>
@@ -332,6 +339,7 @@
                     <height>40</height>
                     <font>ListDetails</font>
                     <textcolor>$VAR[HighlightColor]</textcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <label>$VAR[TheMovieDBLabelVar]%</label>
                 </control>
             </control>
@@ -354,6 +362,7 @@
                     <font>ListDetails</font>
                     <align>left</align>
                     <textcolor>$VAR[HighlightColor]</textcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <label>$INFO[ListItem.Rating(tvdb)]$INFO[ListItem.Votes(tvdb), (, $LOCALIZE[205])]</label>
                 </control>
             </control>
@@ -374,6 +383,7 @@
                     <font>ListDetails</font>
                     <align>left</align>
                     <textcolor>$VAR[HighlightColor]</textcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <label>$INFO[ListItem.UserRating]</label>
                 </control>
             </control>
@@ -399,6 +409,7 @@
                     <height>40</height>
                     <font>ListDetails</font>
                     <textcolor>$VAR[HighlightColor]</textcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <align>left</align>
 					<aligny>center</aligny>
                     <label>$INFO[Window(Home).Property(TMDbHelper.ListItem.Oscar_Wins)]</label>
@@ -418,6 +429,7 @@
                     <height>40</height>
                     <font>ListDetails</font>
                     <textcolor>$VAR[HighlightColor]</textcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <align>left</align>
 					<aligny>center</aligny>
                     <label>$INFO[Window(Home).Property(TMDbHelper.ListItem.GoldenGlobe_Wins)]</label>
@@ -454,6 +466,7 @@
                     <height>40</height>
                     <font>ListDetails</font>
                     <textcolor>$VAR[HighlightColor]</textcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <align>left</align>
                     <label>$INFO[ListItem.Rating]$INFO[ListItem.Votes, (, $LOCALIZE[205])]</label>
                     <visible>!String.IsEmpty(ListItem.Rating) + !String.IsEmpty(ListItem.Votes) + !String.IsEqual(ListItem.Votes,0)</visible>
@@ -463,6 +476,7 @@
                     <height>40</height>
                     <font>ListDetails</font>
                     <textcolor>$VAR[HighlightColor]</textcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <align>left</align>
                     <label>$INFO[ListItem.Rating]</label>
                     <visible>!String.IsEmpty(ListItem.Rating) + [String.IsEmpty(ListItem.Votes) | String.IsEqual(ListItem.Votes,0)]</visible>
@@ -486,6 +500,7 @@
                     <width>60</width>
                     <font>ListDetails</font>
                     <textcolor>$VAR[HighlightColor]</textcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <label>$INFO[Window(Home).Property(TMDbHelper.ListItem.rottentomatoes_rating)]%</label>
                 </control>
             </control>
@@ -507,6 +522,7 @@
                     <width>65</width>
                     <font>ListDetails</font>
                     <textcolor>$VAR[HighlightColor]</textcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <label>$INFO[Window(Home).Property(TMDbHelper.ListItem.rottentomatoes_usermeter)]%</label>
                 </control>
             </control>
@@ -528,6 +544,7 @@
                     <width>50</width>
                     <font>ListDetails</font>
                     <textcolor>$VAR[HighlightColor]</textcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <label>$INFO[Window(Home).Property(TMDbHelper.ListItem.metacritic_rating)]</label>
                 </control>
             </control>
@@ -550,6 +567,7 @@
                     <height>40</height>
                     <font>ListDetails</font>
                     <textcolor>$VAR[HighlightColor]</textcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <align>left</align>
                     <label>$INFO[Window(Home).Property(TMDbHelper.ListItem.imdb_rating)]$INFO[Window(Home).Property(TMDbHelper.ListItem.imdb_votes), (, $LOCALIZE[205])]</label>
                 </control>
@@ -558,6 +576,7 @@
                     <height>40</height>
                     <font>ListDetails</font>
                     <textcolor>$VAR[HighlightColor]</textcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <align>left</align>
                     <label>$INFO[Window(Home).Property(TMDbHelper.ListItem.imdb_rating)]</label>
                     <visible>!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.imdb_rating)) + [String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.imdb_votes)) | String.IsEqual(Window(Home).Property(TMDbHelper.ListItem.imdb_votes),0)]</visible>
@@ -585,6 +604,7 @@
                     <height>40</height>
                     <font>ListDetails</font>
                     <textcolor>$VAR[HighlightColor]</textcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <align>left</align>
 					<aligny>center</aligny>
                     <label>$INFO[Window(Home).Property(TMDbHelper.ListItem.Oscar_Wins)]</label>
@@ -604,6 +624,7 @@
                     <height>40</height>
                     <font>ListDetails</font>
                     <textcolor>$VAR[HighlightColor]</textcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <align>left</align>
 					<aligny>center</aligny>
                     <label>$INFO[Window(Home).Property(TMDbHelper.ListItem.GoldenGlobe_Wins)]</label>
@@ -743,7 +764,8 @@
                     <width>950</width>
                     <height>75</height>
                     <font>InfoTitle</font>
-                    <textcolor>$VAR[TextColor]</textcolor>
+                    <textcolor>$VAR[HighlightColor]</textcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <align>left</align>
                     <aligny>center</aligny>                       
                     <label>$VAR[panelheading]</label>
@@ -754,7 +776,8 @@
                     <width>950</width>
                     <height>60</height>
                     <font>InfoTitle</font>
-                    <textcolor>$VAR[TextColor]</textcolor>
+                    <textcolor>$VAR[HighlightColor]</textcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
                     <align>left</align>
                     <label>$INFO[ListItem.Title,[B],[/B]] $INFO[Window(Home).Property(SkinInfo.Set.Movies.Years),(,)]</label>
                     <visible>String.IsEqual(ListItem.DBType,set)</visible>

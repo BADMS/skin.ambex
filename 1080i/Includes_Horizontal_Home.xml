@@ -79,7 +79,7 @@
 					<control type="label">
 						<width>519</width>
 						<textcolor>$VAR[LabelTextColor]</textcolor>
-						<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+						<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 						<height>70</height>
 						<align>center</align>
 						<aligny>top</aligny>
@@ -93,7 +93,7 @@
 					<control type="label">
 						<width>519</width>
 						<textcolor>$VAR[HighlightColor]</textcolor>
-						<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+						<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 						<height>70</height>
 						<align>center</align>
 						<aligny>top</aligny>
@@ -170,7 +170,7 @@
 						<aligny>center</aligny>
 						<font>Details</font>
 						<label>$INFO[ListItem.Label]</label>
-						<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+						<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					</control>
 					<control type="label">
 						<visible>Control.HasFocus(9001)</visible>
@@ -182,7 +182,7 @@
 						<font>Details</font>
 						<label>$INFO[ListItem.Label]</label>
 						<textcolor>$VAR[FocusedTextColor]</textcolor>
-						<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+						<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					</control>
 				</focusedlayout>
 				<content>

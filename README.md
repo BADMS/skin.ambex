@@ -1,6 +1,8 @@
-skin.ambex
+skin.amber
 ==========
 
-Ambex skin for Kodi
+Amber skin for Kodi
 
 Master branch: Kodi Matrix
+
+Leia branch: Kodi Leia

@@ -85,7 +85,7 @@
 				<align>right</align>
 				<aligny>center</aligny>
 				<textcolor>$VAR[HighlightColor]</textcolor>
-				<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+				<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 				<label>$INFO[ListItem.Label]</label>
 				<include condition="Skin.HasSetting(Vertical.BiggerFont)">BigVerticalFont</include>
 			</control>
@@ -108,7 +108,7 @@
 				<align>right</align>
 				<aligny>center</aligny>
 				<textcolor>$VAR[HighlightColor]</textcolor>
-				<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+				<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 				<label>$INFO[ListItem.Label]</label>
 				<include condition="!Skin.HasSetting(Vertical.BiggerFont)">NormalVerticalFont</include>
 			</control>
@@ -216,7 +216,7 @@
 					<width>360</width>
 					<height>60</height>
 					<textcolor>$VAR[FocusedTextColor]</textcolor>
-					<shadowcolor>$VAR[DiffuseColor]</shadowcolor>
+					<shadowcolor>$VAR[FocusedTextColor]</shadowcolor>
 					<label>$INFO[ListItem.Label]</label>
 				</control>
 			</focusedlayout>
