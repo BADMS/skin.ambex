@@ -59,15 +59,16 @@
 			<include>Dimensions_Fullscreen</include>
 		</control>
 		<control type="group" description="Content">
-			<animation effect="fade" start="0" end="100" time="1000" condition="Window.Previous(Startup.xml)">Conditional</animation>
+			<animation effect="fade" time="15000" delay="0" start="100" end="0" tween="cubic" reversible="false" condition="System.IdleTime(20)">Conditional</animation>
+			<animation effect="fade" start="0" end="100" time="5000" condition="Window.Previous(Startup.xml)">Conditional</animation>
 			<animation effect="fade" start="0" end="100" time="200" condition="!Window.Previous(Startup.xml)">Conditional</animation>
 			<include condition="Skin.HasSetting(VerticalHome)">Vertical_Home_Layout</include>
 			<include condition="!Skin.HasSetting(VerticalHome)">Horizontal_Home_Layout</include>
 			<include>Time</include>
             <!-- Fanart background title -->
 			<include condition="[!Skin.HasSetting(Home_DefaultBG) + Skin.HasSetting(Enable.FanartTitle)]">ShowFanartTitle</include>
-			<include condition="Skin.HasSetting(ShowHomeLogo)">HomeClearLogo</include>
 		</control>
+		<include condition="Skin.HasSetting(ShowHomeLogo)">HomeClearLogo</include>
 		<include condition="Skin.HasSetting(holiday)">Holiday</include>
 	</controls>
 </window>

@@ -3119,7 +3119,7 @@
     			<visible>[Container.Content(files) | Container.Content(videos) | Container.Content(sets) | Container.Content(Movies) | Container.Content(Episodes) | Container.Content(tvshows) | Container.Content(seasons)]</visible>
 			    <control type="image">
     				<posx>$PARAM[overlayleft]</posx>
-				    <posy>-5</posy>
+				    <posy>0</posy>
 				    <width>30</width>
 				    <height>100</height>
 				    <texture>$VAR[Overlay]</texture>
@@ -3131,7 +3131,7 @@
     			<visible>Container.Content(addons)</visible>
 			    <control type="image">
     				<posx>$PARAM[overlayleft]</posx>
-				    <posy>-5</posy>
+				    <posy>0</posy>
 				    <width>30</width>
 				    <height>100</height>
 				    <texture>$VAR[AddonOverlay]</texture>

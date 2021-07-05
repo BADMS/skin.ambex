@@ -10,7 +10,7 @@
 			<description>trigger</description>
 			<onfocus>ReplaceWindow($INFO[System.StartupWindow])</onfocus>
 			<onfocus condition="System.HasAddon(script.litebox)">RunScript(script.litebox,daemon=True)</onfocus>
-			<onfocus condition="System.HasAddon(script.litebox)">AlarmClock(nms1,SetProperty(NINE_manual_set,"var=main,set=main:|var=comp,set=comp:hsv*0;-0.1;0.3|var=blursize,set=5|var=quality,set=10",home),00:05,true)</onfocus>
+			<onfocus condition="System.HasAddon(script.litebox)">AlarmClock(nms1,SetProperty(NINE_manual_set,"var=main,set=main:fhsv*0.1;0.2;0.7|var=comp,set=comp:fhsv*0.5;0.3;0.58|var=blursize,set=5|var=quality,set=10",home),00:05,true)</onfocus>
 			<texturefocus></texturefocus>
 			<visible>!Skin.HasSetting(Use_Startup_Playlist)</visible>
 		</control>

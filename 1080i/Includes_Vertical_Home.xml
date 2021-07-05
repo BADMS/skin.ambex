@@ -52,7 +52,7 @@
 		<animation effect="fade" time="200" start="100" end="20" reversible="true" condition="!Control.HasFocus(300)">Conditional</animation>
 		<left>30</left>
 		<top>60</top>
-		<width>380</width>
+		<width>390</width>
 		<height>960</height>
 		<onup>300</onup>
 		<ondown>300</ondown>
@@ -80,6 +80,13 @@
 			</control>
 		</itemlayout>
 		<focusedlayout height="140" width="380"  condition="Skin.HasSetting(Vertical.BiggerFont)">
+			<control type="image">
+				<posx>385</posx>
+				<posy>35</posy>
+				<width>5</width>
+				<height>66</height>
+				<texture border="3" colordiffuse="$VAR[HighlightColor]">WhiteDot.png</texture>
+			</control>
 			<control type="label">
 				<width>380</width>
 				<align>right</align>
