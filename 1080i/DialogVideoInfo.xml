@@ -76,14 +76,13 @@
                 <texture>WhiteRoundedST2.png</texture>
                 <aspectratio>scale</aspectratio>
             </control>
-            <control type="image">
-                <width>100%</width>
-                <height>100%</height>
-                <aspectratio align="center">scale</aspectratio>
-				<colordiffuse>$VAR[BackgroundColor]</colordiffuse>
-			    <texture background="true">BlurMask2.png</texture>
-			    <fadetime>IconCrossfadeTime</fadetime>
-            </control>
+			<control type="image">
+                <width>1920</width>
+                <height>1080</height>
+				<colordiffuse>$VAR[SecondaryColor]</colordiffuse>
+				<texture diffuse="BlurMask2.png">$VAR[FiveImage]</texture>
+				<aspectratio>scale</aspectratio>
+			</control>
             <include content="BackgroundOverlayVideoInfo">
                 <param name="parentid" value="9000"/>
             </include>
