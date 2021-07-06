@@ -415,7 +415,7 @@
                 <width>500</width>
                 <height>320</height>
 				<fadetime>100</fadetime>
-				<colordiffuse>$VAR[SecondaryColor]</colordiffuse>
+				<!-- <colordiffuse>$VAR[SecondaryColor]</colordiffuse> -->
                 <texture background="true">$VAR[HomeClearLogo]</texture>
 		        <aspectratio>keep</aspectratio>
 			    <align>center</align>
@@ -429,7 +429,7 @@
                 <width>500</width>
                 <height>200</height>
 				<fadetime>100</fadetime>
-				<colordiffuse>$VAR[SecondaryColor]</colordiffuse>
+				<!-- <colordiffuse>$VAR[SecondaryColor]</colordiffuse> -->
                 <texture background="true">$VAR[HomeClearLogo]</texture>
 		        <aspectratio>keep</aspectratio>
 			    <align>center</align>

@@ -118,8 +118,8 @@
 			    <control type="image">
 				    <visible>[![Container.Content(tvshows) | container.content(seasons) | Container.Content(addons)] | 
 				              [[Container.Content(tvshows) | container.content(seasons)] + !Integer.IsGreater(Listitem.Property(UnwatchedEpisodes),0)]]  + ![$EXP[ListPanelIsDisabled]] + ![$EXP[ListPanelIsSwapped]]</visible>
-				    <posx>1295</posx>
-				    <width>30</width>
+				    <posx>1275</posx>
+				    <width>50</width>
 				    <height>$PARAM[itemheight]</height>
 				    <texture colordiffuse="$VAR[SecondaryColor]">$VAR[Overlay]</texture>
 				    <aspectratio aligny="center">keep</aspectratio>
@@ -128,8 +128,8 @@
 			    <control type="image">
 				    <visible>[![Container.Content(tvshows) | container.content(seasons) | Container.Content(addons)] | 
 				              [[Container.Content(tvshows) | container.content(seasons)] + !Integer.IsGreater(Listitem.Property(UnwatchedEpisodes),0)]] + ![$EXP[ListPanelIsDisabled]] + $EXP[ListPanelIsSwapped]</visible>
-				    <posx>596r</posx>
-				    <width>30</width>
+				    <posx>615r</posx>
+				    <width>50</width>
 				    <height>$PARAM[itemheight]</height>
 				    <texture colordiffuse="$VAR[SecondaryColor]">$VAR[Overlay]</texture>
 				    <aspectratio aligny="center">keep</aspectratio>
@@ -138,8 +138,8 @@
 			    <control type="image">
 				    <visible>[![Container.Content(tvshows) | container.content(seasons) | Container.Content(addons)] | 
 				              [[Container.Content(tvshows) | container.content(seasons)] + !Integer.IsGreater(Listitem.Property(UnwatchedEpisodes),0)]] + $EXP[ListPanelIsDisabled]</visible>
-				    <posx>46r</posx>
-				    <width>30</width>
+				    <posx>65r</posx>
+				    <width>50</width>
 				    <height>$PARAM[itemheight]</height>
 				    <texture colordiffuse="$VAR[SecondaryColor]">$VAR[Overlay]</texture>
 				    <aspectratio aligny="center">keep</aspectratio>
@@ -147,8 +147,8 @@
 			    <!-- Overlay image for addons when panel is original position -->
 			    <control type="image">
 				    <visible>Container.Content(addons) + ![$EXP[ListPanelIsDisabled]] + ![$EXP[ListPanelIsSwapped]]</visible>
-				    <posx>1295</posx>
-				    <width>30</width>
+				    <posx>1275</posx>
+				    <width>50</width>
 				    <height>$PARAM[itemheight]</height>
 				    <texture colordiffuse="$VAR[SecondaryColor]">$VAR[AddonOverlay]</texture>
 				    <aspectratio aligny="center">keep</aspectratio>
@@ -156,8 +156,8 @@
 			    <!-- Overlay image for addons when panel is swapped -->
 			    <control type="image">
 				    <visible>Container.Content(addons) + ![$EXP[ListPanelIsDisabled]] + $EXP[ListPanelIsSwapped]</visible>
-				    <posx>606r</posx>
-				    <width>30</width>
+				    <posx>615r</posx>
+				    <width>50</width>
 				    <height>$PARAM[itemheight]</height>
 				    <texture colordiffuse="$VAR[SecondaryColor]">$VAR[AddonOverlay]</texture>
 				    <aspectratio aligny="center">keep</aspectratio>
@@ -165,8 +165,8 @@
 			    <!-- Overlay image for addons when panel is disabled -->
 			    <control type="image">
 				    <visible>Container.Content(addons) + $EXP[ListPanelIsDisabled]</visible>
-				    <posx>46r</posx>
-				    <width>30</width>
+				    <posx>65r</posx>
+				    <width>50</width>
 				    <height>$PARAM[itemheight]</height>
 				    <texture colordiffuse="$VAR[SecondaryColor]">$VAR[AddonOverlay]</texture>
 				    <aspectratio aligny="center">keep</aspectratio>
@@ -316,8 +316,8 @@
 			    <control type="image">
 				    <visible>[![Container.Content(tvshows) | container.content(seasons) | Container.Content(addons)] | 
 				              [[Container.Content(tvshows) | container.content(seasons)] + !Integer.IsGreater(Listitem.Property(UnwatchedEpisodes),0)]] + ![$EXP[LowListPanelIsDisabled]] + ![$EXP[LowListPanelIsSwapped]]</visible>
-				    <posx>1495</posx>
-				    <width>30</width>
+				    <posx>1475</posx>
+				    <width>50</width>
 				    <height>$PARAM[itemheight]</height>
 				    <texture colordiffuse="$VAR[SecondaryColor]">$VAR[Overlay]</texture>
 				    <aspectratio aligny="center">keep</aspectratio>
@@ -326,8 +326,8 @@
 			    <control type="image">
 				    <visible>[![Container.Content(tvshows) | container.content(seasons) | Container.Content(addons)] | 
 				              [[Container.Content(tvshows) | container.content(seasons)] + !Integer.IsGreater(Listitem.Property(UnwatchedEpisodes),0)]] + ![$EXP[LowListPanelIsDisabled]] + $EXP[LowListPanelIsSwapped]</visible>
-				    <posx>596r</posx>
-				    <width>30</width>
+				    <posx>615r</posx>
+				    <width>50</width>
 				    <height>$PARAM[itemheight]</height>
 				    <texture colordiffuse="$VAR[SecondaryColor]">$VAR[Overlay]</texture>
 				    <aspectratio aligny="center">keep</aspectratio>
@@ -336,8 +336,8 @@
 			    <control type="image">
 				    <visible>[![Container.Content(tvshows) | container.content(seasons) | Container.Content(addons)] | 
 				              [[Container.Content(tvshows) | container.content(seasons)] + !Integer.IsGreater(Listitem.Property(UnwatchedEpisodes),0)]] + $EXP[LowListPanelIsDisabled]</visible>
-				    <posx>46r</posx>
-				    <width>30</width>
+				    <posx>65r</posx>
+				    <width>50</width>
 				    <height>$PARAM[itemheight]</height>
 				    <texture colordiffuse="$VAR[SecondaryColor]">$VAR[Overlay]</texture>
 				    <aspectratio aligny="center">keep</aspectratio>
@@ -345,8 +345,8 @@
 			    <!-- Overlay image for addons when panel is original position -->
 			    <control type="image">
 				    <visible>Container.Content(addons) + ![$EXP[LowListPanelIsDisabled]] + ![$EXP[LowListPanelIsSwapped]]</visible>
-				    <posx>1295</posx>
-				    <width>30</width>
+				    <posx>1275</posx>
+				    <width>50</width>
 				    <height>$PARAM[itemheight]</height>
 				    <texture colordiffuse="$VAR[SecondaryColor]">$VAR[AddonOverlay]</texture>
 				    <aspectratio aligny="center">keep</aspectratio>
@@ -354,8 +354,8 @@
 			    <!-- Overlay image for addons when panel is swapped -->
 			    <control type="image">
 				    <visible>Container.Content(addons) + ![$EXP[LowListPanelIsDisabled]] + $EXP[LowListPanelIsSwapped]</visible>
-				    <posx>606r</posx>
-				    <width>30</width>
+				    <posx>615r</posx>
+				    <width>50</width>
 				    <height>$PARAM[itemheight]</height>
 				    <texture colordiffuse="$VAR[SecondaryColor]">$VAR[AddonOverlay]</texture>
 				    <aspectratio aligny="center">keep</aspectratio>
@@ -363,8 +363,8 @@
 			    <!-- Overlay image for addons when panel is disabled -->
 			    <control type="image">
 				    <visible>Container.Content(addons) + $EXP[LowListPanelIsDisabled]</visible>
-				    <posx>46r</posx>
-				    <width>30</width>
+				    <posx>65r</posx>
+				    <width>50</width>
 				    <height>$PARAM[itemheight]</height>
 				    <texture colordiffuse="$VAR[SecondaryColor]">$VAR[AddonOverlay]</texture>
 				    <aspectratio aligny="center">keep</aspectratio>
@@ -513,8 +513,8 @@
 			    <control type="image">
 				    <visible>[![Container.Content(tvshows) | container.content(seasons) | Container.Content(addons)] | 
 				              [[Container.Content(tvshows) | container.content(seasons)] + !Integer.IsGreater(Listitem.Property(UnwatchedEpisodes),0)]] + ![$EXP[TallListPanelIsDisabled]] + ![$EXP[TallListPanelIsSwapped]]</visible>
-				    <posx>1295</posx>
-				    <width>30</width>
+				    <posx>1275</posx>
+				    <width>50</width>
 				    <height>$PARAM[itemheight]</height>
 				    <texture colordiffuse="$VAR[SecondaryColor]">$VAR[Overlay]</texture>
 				    <aspectratio aligny="center">keep</aspectratio>
@@ -523,8 +523,8 @@
 			    <control type="image">
 				    <visible>[![Container.Content(tvshows) | container.content(seasons) | Container.Content(addons)] | 
 				              [[Container.Content(tvshows) | container.content(seasons)] + !Integer.IsGreater(Listitem.Property(UnwatchedEpisodes),0)]] + ![$EXP[TallListPanelIsDisabled]] + $EXP[TallListPanelIsSwapped]</visible>
-				    <posx>536r</posx>
-				    <width>30</width>
+				    <posx>555r</posx>
+				    <width>50</width>
 				    <height>$PARAM[itemheight]</height>
 				    <texture colordiffuse="$VAR[SecondaryColor]">$VAR[Overlay]</texture>
 				    <aspectratio aligny="center">keep</aspectratio>
@@ -533,8 +533,8 @@
 			    <control type="image">
 				    <visible>[![Container.Content(tvshows) | container.content(seasons) | Container.Content(addons)] | 
 				              [[Container.Content(tvshows) | container.content(seasons)] + !Integer.IsGreater(Listitem.Property(UnwatchedEpisodes),0)]] + $EXP[TallListPanelIsDisabled]</visible>
-				    <posx>46r</posx>
-				    <width>30</width>
+				    <posx>65r</posx>
+				    <width>50</width>
 				    <height>$PARAM[itemheight]</height>
 				    <texture colordiffuse="$VAR[SecondaryColor]">$VAR[Overlay]</texture>
 				    <aspectratio aligny="center">keep</aspectratio>
@@ -542,8 +542,8 @@
 			    <!-- Overlay image for addons when panel is original position -->
 			    <control type="image">
 				    <visible>Container.Content(addons) + ![$EXP[TallListPanelIsDisabled]] + ![$EXP[TallListPanelIsSwapped]]</visible>
-				    <posx>1295</posx>
-				    <width>30</width>
+				    <posx>1275</posx>
+				    <width>50</width>
 				    <height>$PARAM[itemheight]</height>
 				    <texture colordiffuse="$VAR[SecondaryColor]">$VAR[AddonOverlay]</texture>
 				    <aspectratio aligny="center">keep</aspectratio>
@@ -551,8 +551,8 @@
 			    <!-- Overlay image for addons when panel is swapped -->
 			    <control type="image">
 				    <visible>Container.Content(addons) + ![$EXP[TallListPanelIsDisabled]] + $EXP[TallListPanelIsSwapped]</visible>
-				    <posx>536r</posx>
-				    <width>30</width>
+				    <posx>555r</posx>
+				    <width>50</width>
 				    <height>$PARAM[itemheight]</height>
 				    <texture colordiffuse="$VAR[SecondaryColor]">$VAR[AddonOverlay]</texture>
 				    <aspectratio aligny="center">keep</aspectratio>
@@ -560,8 +560,8 @@
 			    <!-- Overlay image for addons when panel is disabled -->
 			    <control type="image">
 				    <visible>Container.Content(addons) + $EXP[TallListPanelIsDisabled]</visible>
-				    <posx>46r</posx>
-				    <width>30</width>
+				    <posx>65r</posx>
+				    <width>50</width>
 				    <height>$PARAM[itemheight]</height>
 				    <texture colordiffuse="$VAR[SecondaryColor]">$VAR[AddonOverlay]</texture>
 				    <aspectratio aligny="center">keep</aspectratio>
@@ -711,8 +711,8 @@
 			    <control type="image">
 				    <visible>[![Container.Content(tvshows) | container.content(seasons) | Container.Content(addons)] | 
 				              [[Container.Content(tvshows) | container.content(seasons)] + !Integer.IsGreater(Listitem.Property(UnwatchedEpisodes),0)]]</visible>
-				    <posx>535</posx>
-				    <width>30</width>
+				    <posx>520</posx>
+				    <width>50</width>
 				    <height>$PARAM[itemheight]</height>
 				    <texture colordiffuse="$VAR[SecondaryColor]">$VAR[Overlay]</texture>
 				    <aspectratio aligny="center">keep</aspectratio>
@@ -720,8 +720,8 @@
 			    <!-- Overlay image for addons when panel is original position -->
 			    <control type="image">
 				    <visible>Container.Content(addons)</visible>
-				    <posx>535</posx>
-				    <width>30</width>
+				    <posx>520</posx>
+				    <width>50</width>
 				    <height>$PARAM[itemheight]</height>
 				    <texture colordiffuse="$VAR[SecondaryColor]">$VAR[AddonOverlay]</texture>
 				    <aspectratio aligny="center">keep</aspectratio>
@@ -2352,6 +2352,7 @@
 			</control>
 			<control type="image">
 				<visible>$PARAM[isFocused]</visible>
+				<animation effect="fade" start="20" end="100" time="800" pulse="true" reversible="true" condition="true">Conditional</animation>
 				<left>$PARAM[shadowoffset]</left>
 				<top>$PARAM[shadowoffset]</top>
 				<width>$PARAM[iconwidth]</width>
@@ -2446,22 +2447,23 @@
 				</include>
 				<control type="image" description="Watched Overlay">
 					<visible>!$PARAM[isFocused] + $PARAM[showOverlay] + [!Skin.HasSetting(ShowTopRightOverlays) | [Skin.HasSetting(ShowTopRightOverlays) + [![$EXP[IsIconView]] | ListItem.IsRecording | String.StartsWith(ListItem.FolderPath,pvr)]]]</visible>
-					<left>60r</left>
-					<top>60r</top>
-					<width>30</width>
-					<height>30</height>
-					<texture>$VAR[Overlay]</texture>
-					<aspectratio>keep</aspectratio>
+					<left>77r</left>
+					<top>89r</top>
+					<width>50</width>
+					<height>72</height>
+					<colordiffuse>$VAR[SecondaryColor]</colordiffuse>
+					<texture diffuse="WhiteRoundedcbxST2.png">$VAR[Overlay]</texture>
+					<aspectratio aligny="center">keep</aspectratio>
 				</control>
 				<control type="image" description="Watched Overlay">
 					<visible>$PARAM[isFocused] + $PARAM[showOverlay] + [!Skin.HasSetting(ShowTopRightOverlays) | [Skin.HasSetting(ShowTopRightOverlays) + [![$EXP[IsIconView]] | ListItem.IsRecording | String.StartsWith(ListItem.FolderPath,pvr)]]]</visible>
-					<left>60r</left>
-					<top>60r</top>
-					<width>30</width>
-					<height>30</height>
+					<left>77r</left>
+					<top>89r</top>
+					<width>50</width>
+					<height>72</height>
+					<colordiffuse>$VAR[SecondaryColor]</colordiffuse>
 					<texture>$VAR[Overlay]</texture>
-    				<colordiffuse>$VAR[MediaWidgetsHighlightColor]</colordiffuse>
-					<aspectratio>keep</aspectratio>
+					<aspectratio aligny="center">keep</aspectratio>
 				</control>
 			</control>
 		</definition>

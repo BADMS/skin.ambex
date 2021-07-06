@@ -57,7 +57,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
 				</control>
 			    <control type="label">
-    				<posx>1115</posx>
+    				<posx>1095</posx>
 				    <posy>0</posy>
 				    <width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -70,7 +70,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists) + !Container.Content(albums)</visible>
 			    </control>
 				<control type="label">
-    				<posx>1115</posx>
+    				<posx>1095</posx>
 				    <posy>0</posy>
 				    <width>220</width>
 				    <height>$PARAM[itemheight]</height>
@@ -123,7 +123,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
 				</control>
     			<control type="label">
-	    			<posx>1115</posx>
+	    			<posx>1095</posx>
 		    		<posy>0</posy>
 			    	<width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -138,7 +138,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists) + !Container.Content(albums)</visible>
 			    </control>
 				<control type="label">
-	    			<posx>1115</posx>
+	    			<posx>1095</posx>
 		    		<posy>0</posy>
 			    	<width>220</width>
 				    <height>$PARAM[itemheight]</height>
@@ -221,7 +221,7 @@
                     <visible>[Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
 			    </control>
 				<control type="label">
-    				<posx>1115</posx>
+    				<posx>1095</posx>
 				    <posy>0</posy>
 				    <width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -315,7 +315,7 @@
                     <visible>[Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
 			    </control>
 				<control type="label">
-	    			<posx>1115</posx>
+	    			<posx>1095</posx>
 				    <posy>0</posy>
 				    <width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -367,7 +367,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
 				</control>
 			    <control type="label">
-    				<posx>464</posx>
+    				<posx>445</posx>
 				    <posy>0</posy>
 				    <width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -420,7 +420,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
 				</control>
     			<control type="label">
-	    			<posx>464</posx>
+	    			<posx>445</posx>
 		    		<posy>0</posy>
 			    	<width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -490,7 +490,7 @@
                     <visible>[Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
 				</control>
 			    <control type="label">
-    				<posx>435</posx>
+    				<posx>395</posx>
 				    <posy>0</posy>
 				    <width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -503,7 +503,7 @@
                     <visible>![Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
 			    </control>
 				<control type="label">
-    				<posx>415</posx>
+    				<posx>395</posx>
 				    <posy>0</posy>
 				    <width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -582,7 +582,7 @@
                     <visible>[Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
 				</control>
     			<control type="label">
-	    			<posx>435</posx>
+	    			<posx>395</posx>
 		    		<posy>0</posy>
 			    	<width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -597,7 +597,7 @@
                     <visible>![Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
 			    </control>
 				<control type="label">
-	    			<posx>415</posx>
+	    			<posx>395</posx>
 		    		<posy>0</posy>
 			    	<width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -662,7 +662,7 @@
 					<visible>Skin.HasSetting(Hide.Label2.Lists)</visible>
                 </control>
 			    <control type="label">
-    				<right>45</right>
+    				<right>65</right>
 				    <posy>0</posy>
 				    <width>150</width>
 				    <height>$PARAM[itemheight]</height>
@@ -675,7 +675,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists) + ![Container.Content(tvshows) | Container.Content(seasons) | Container.Content(albums) | Container.Content(songs)]</visible>
 			    </control>
 				<control type="label">
-    				<right>65</right>
+    				<right>85</right>
 				    <posy>0</posy>
 				    <width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -688,7 +688,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists) + [Container.Content(tvshows) | Container.Content(seasons)]</visible>
 			    </control>
 				<control type="label">
-    				<right>5</right>
+    				<right>25</right>
 				    <posy>0</posy>
 				    <width>295</width>
 				    <height>$PARAM[itemheight]</height>
@@ -757,7 +757,7 @@
 					<visible>Skin.HasSetting(Hide.Label2.Lists)</visible>
 				</control>
     			<control type="label">
-	    			<right>45</right>
+	    			<right>65</right>
 		    		<posy>0</posy>
 			    	<width>150</width>
 				    <height>$PARAM[itemheight]</height>
@@ -772,7 +772,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists) + ![Container.Content(tvshows) | Container.Content(seasons) | Container.Content(albums) | Container.Content(songs)]</visible>
 			    </control>
 				<control type="label">
-	    			<right>65</right>
+	    			<right>85</right>
 		    		<posy>0</posy>
 			    	<width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -787,7 +787,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists) + [Container.Content(tvshows) | Container.Content(seasons)]</visible>
 			    </control>
 				<control type="label">
-	    			<right>5</right>
+	    			<right>25</right>
 		    		<posy>0</posy>
 			    	<width>295</width>
 				    <height>$PARAM[itemheight]</height>
@@ -840,7 +840,7 @@
 					<visible>Skin.HasSetting(Hide.Label2.Lists)</visible>
                 </control>
 			    <control type="label">
-    				<right>45</right>
+    				<right>65</right>
 				    <posy>0</posy>
 				    <width>150</width>
 				    <height>$PARAM[itemheight]</height>
@@ -895,7 +895,7 @@
 					<visible>Skin.HasSetting(Hide.Label2.Lists)</visible>
 				</control>
     			<control type="label">
-	    			<right>45</right>
+	    			<right>65</right>
 		    		<posy>0</posy>
 			    	<width>150</width>
 				    <height>$PARAM[itemheight]</height>
@@ -946,7 +946,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
 				</control>
 			    <control type="label">
-    				<posx>1115</posx>
+    				<posx>1095</posx>
 				    <posy>0</posy>
 				    <width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -999,7 +999,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
 				</control>
     			<control type="label">
-	    			<posx>1115</posx>
+	    			<posx>1095</posx>
 		    		<posy>0</posy>
 			    	<width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -1068,7 +1068,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
 				</control>
 			    <control type="label">
-    				<posx>1315</posx>
+    				<posx>1295</posx>
 				    <posy>0</posy>
 				    <width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -1081,7 +1081,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists) + !Container.Content(albums)</visible>
 			    </control>
 				<control type="label">
-    				<posx>1315</posx>
+    				<posx>1295</posx>
 				    <posy>0</posy>
 				    <width>220</width>
 				    <height>$PARAM[itemheight]</height>
@@ -1134,7 +1134,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
 				</control>
     			<control type="label">
-	    			<posx>1315</posx>
+	    			<posx>1295</posx>
 		    		<posy>0</posy>
 			    	<width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -1149,7 +1149,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists) + !Container.Content(albums)</visible>
 			    </control>
 				<control type="label">
-	    			<posx>1315</posx>
+	    			<posx>1295</posx>
 		    		<posy>0</posy>
 			    	<width>220</width>
 				    <height>$PARAM[itemheight]</height>
@@ -1232,7 +1232,7 @@
                     <visible>[Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
 			    </control>
 				<control type="label">
-    				<posx>1315</posx>
+    				<posx>1295</posx>
 				    <posy>0</posy>
 				    <width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -1326,7 +1326,7 @@
                     <visible>[Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
 			    </control>
 				<control type="label">
-	    			<posx>1315</posx>
+	    			<posx>1295</posx>
 				    <posy>0</posy>
 				    <width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -1378,7 +1378,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
 				</control>
 			    <control type="label">
-    				<posx>469</posx>
+    				<posx>450</posx>
 				    <posy>0</posy>
 				    <width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -1431,7 +1431,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
 				</control>
     			<control type="label">
-	    			<posx>469</posx>
+	    			<posx>450</posx>
 		    		<posy>0</posy>
 			    	<width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -1481,7 +1481,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
 				</control>
 			    <control type="label">
-    				<posx>435</posx>
+    				<posx>415</posx>
 				    <posy>0</posy>
 				    <width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -1494,7 +1494,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists) + ![Container.Content(tvshows) | Container.Content(seasons)]</visible>
 			    </control>
 				<control type="label">
-    				<posx>415</posx>
+    				<posx>395</posx>
 				    <posy>0</posy>
 				    <width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -1547,7 +1547,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
 				</control>
     			<control type="label">
-	    			<posx>435</posx>
+	    			<posx>415</posx>
 				    <posy>0</posy>
 				    <width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -1562,7 +1562,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists) + ![Container.Content(tvshows) | Container.Content(seasons)]</visible>
 			    </control>
 				<control type="label">
-	    			<posx>415</posx>
+	    			<posx>395</posx>
 				    <posy>0</posy>
 				    <width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -1640,7 +1640,7 @@
                     <visible>[Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
 			    </control>
 				<control type="label">
-    				<posx>1315</posx>
+    				<posx>1295</posx>
 				    <posy>0</posy>
 				    <width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -1737,7 +1737,7 @@
                     <visible>[Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
 			    </control>
 				<control type="label">
-	    			<posx>1315</posx>
+	    			<posx>1295</posx>
 				    <posy>0</posy>
 				    <width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -1911,7 +1911,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
 				</control>
 			    <control type="label">
-    				<posx>1315</posx>
+    				<posx>1295</posx>
 				    <posy>0</posy>
 				    <width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -1964,7 +1964,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
 				</control>
     			<control type="label">
-	    			<posx>1315</posx>
+	    			<posx>1295</posx>
 		    		<posy>0</posy>
 			    	<width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -2030,7 +2030,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
 				</control>
 			    <control type="label">
-    				<posx>1115</posx>
+    				<posx>1095</posx>
 				    <posy>0</posy>
 				    <width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -2043,7 +2043,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists) + ![Container.Content(albums) | Container.Content(images)]</visible>
 			    </control>
 				<control type="label">
-    				<posx>1115</posx>
+    				<posx>1095</posx>
 				    <posy>0</posy>
 				    <width>220</width>
 				    <height>$PARAM[itemheight]</height>
@@ -2096,7 +2096,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
 				</control>
     			<control type="label">
-	    			<posx>1115</posx>
+	    			<posx>1095</posx>
 		    		<posy>0</posy>
 			    	<width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -2111,7 +2111,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists) + ![Container.Content(albums) | Container.Content(images)]</visible>
 			    </control>
 				<control type="label">
-	    			<posx>1115</posx>
+	    			<posx>1095</posx>
 		    		<posy>0</posy>
 			    	<width>220</width>
 				    <height>$PARAM[itemheight]</height>
@@ -2194,7 +2194,7 @@
                     <visible>[Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
 			    </control>
 				<control type="label">
-    				<posx>1115</posx>
+    				<posx>1095</posx>
 				    <posy>0</posy>
 				    <width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -2288,7 +2288,7 @@
                     <visible>[Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
 			    </control>
 				<control type="label">
-	    			<posx>1115</posx>
+	    			<posx>1095</posx>
 				    <posy>0</posy>
 				    <width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -2340,7 +2340,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
 				</control>
 			    <control type="label">
-    				<posx>494</posx>
+    				<posx>475</posx>
 				    <posy>0</posy>
 				    <width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -2353,7 +2353,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists) + ![Container.Content(albums) | Container.Content(images)]</visible>
 			    </control>
 				<control type="label">
-    				<posx>494</posx>
+    				<posx>475</posx>
 				    <posy>0</posy>
 				    <width>220</width>
 				    <height>$PARAM[itemheight]</height>
@@ -2406,7 +2406,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
 				</control>
     			<control type="label">
-	    			<posx>494</posx>
+	    			<posx>475</posx>
 		    		<posy>0</posy>
 			    	<width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -2421,7 +2421,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists) + ![Container.Content(albums) | Container.Content(images)]</visible>
 			    </control>
 				<control type="label">
-	    			<posx>494</posx>
+	    			<posx>475</posx>
 		    		<posy>0</posy>
 			    	<width>220</width>
 				    <height>$PARAM[itemheight]</height>
@@ -2491,7 +2491,7 @@
                     <visible>[Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
 				</control>
 			    <control type="label">
-    				<posx>495</posx>
+    				<posx>475</posx>
 				    <posy>0</posy>
 				    <width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -2504,7 +2504,7 @@
                     <visible>![Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
 			    </control>
 				<control type="label">
-    				<posx>475</posx>
+    				<posx>455</posx>
 				    <posy>0</posy>
 				    <width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -2583,7 +2583,7 @@
                     <visible>[Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
 				</control>
     			<control type="label">
-	    			<posx>495</posx>
+	    			<posx>475</posx>
 		    		<posy>0</posy>
 			    	<width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -2598,7 +2598,7 @@
                     <visible>![Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Hide.Label2.Lists)</visible>
 			    </control>
 				<control type="label">
-	    			<posx>475</posx>
+	    			<posx>455</posx>
 		    		<posy>0</posy>
 			    	<width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -2663,7 +2663,7 @@
 					<visible>Skin.HasSetting(Hide.Label2.Lists)</visible>
                 </control>
 			    <control type="label">
-    				<right>45</right>
+    				<right>65</right>
 				    <posy>0</posy>
 				    <width>150</width>
 				    <height>$PARAM[itemheight]</height>
@@ -2676,7 +2676,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists) + ![Container.Content(tvshows) | Container.Content(seasons) | Container.Content(albums) | Container.Content(songs)]</visible>
 			    </control>
 				<control type="label">
-    				<right>65</right>
+    				<right>85</right>
 				    <posy>0</posy>
 				    <width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -2689,7 +2689,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists) + [Container.Content(tvshows) | Container.Content(seasons)]</visible>
 			    </control>
 				<control type="label">
-    				<right>5</right>
+    				<right>25</right>
 				    <posy>0</posy>
 				    <width>295</width>
 				    <height>$PARAM[itemheight]</height>
@@ -2758,7 +2758,7 @@
 					<visible>Skin.HasSetting(Hide.Label2.Lists)</visible>
 				</control>
     			<control type="label">
-	    			<right>45</right>
+	    			<right>65</right>
 		    		<posy>0</posy>
 			    	<width>150</width>
 				    <height>$PARAM[itemheight]</height>
@@ -2773,7 +2773,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists) + ![Container.Content(tvshows) | Container.Content(seasons) | Container.Content(albums) | Container.Content(songs)]</visible>
 			    </control>
 				<control type="label">
-	    			<right>65</right>
+	    			<right>85</right>
 		    		<posy>0</posy>
 			    	<width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -2788,7 +2788,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists) + [Container.Content(tvshows) | Container.Content(seasons)]</visible>
 			    </control>
 				<control type="label">
-	    			<right>5</right>
+	    			<right>25</right>
 		    		<posy>0</posy>
 			    	<width>295</width>
 				    <height>$PARAM[itemheight]</height>
@@ -2841,7 +2841,7 @@
 					<visible>Skin.HasSetting(Hide.Label2.Lists)</visible>
                 </control>
 			    <control type="label">
-    				<right>5</right>
+    				<right>25</right>
 				    <posy>0</posy>
 				    <width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -2896,7 +2896,7 @@
 					<visible>Skin.HasSetting(Hide.Label2.Lists)</visible>
 				</control>
     			<control type="label">
-	    			<right>5</right>
+	    			<right>25</right>
 		    		<posy>0</posy>
 			    	<width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -2947,7 +2947,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
 				</control>
 			    <control type="label">
-    				<posx>1155</posx>
+    				<posx>1135</posx>
 				    <posy>0</posy>
 				    <width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -3000,7 +3000,7 @@
                     <visible>!Skin.HasSetting(Hide.Label2.Lists)</visible>
 				</control>
     			<control type="label">
-	    			<posx>1155</posx>
+	    			<posx>1135</posx>
 		    		<posy>0</posy>
 			    	<width>180</width>
 				    <height>$PARAM[itemheight]</height>
@@ -3116,27 +3116,58 @@
 		        <label>$VAR[panelsubheading]</label>
 	        </control>
 		    <control type="group">
-    			<visible>[Container.Content(files) | Container.Content(videos) | Container.Content(sets) | Container.Content(Movies) | Container.Content(Episodes) | Container.Content(tvshows) | Container.Content(seasons)]</visible>
-			    <control type="image">
-    				<posx>$PARAM[overlayleft]</posx>
-				    <posy>0</posy>
-				    <width>30</width>
-				    <height>100</height>
-				    <texture>$VAR[Overlay]</texture>
-					<colordiffuse>$VAR[SecondaryColor]</colordiffuse>
-				    <aspectratio aligny="center">keep</aspectratio>
-			    </control>
+		        <visible>$PARAM[isfocused]</visible>
+				<control type="group">
+					<visible>[Container.Content(files) | Container.Content(videos) | Container.Content(sets) | Container.Content(Movies) | Container.Content(Episodes) | Container.Content(tvshows) | Container.Content(seasons)]</visible>
+					<control type="image">
+						<posx>$PARAM[overlayleft]</posx>
+						<posy>0</posy>
+						<width>50</width>
+						<height>100</height>
+						<texture>$VAR[Overlay]</texture>
+						<colordiffuse>$VAR[SecondaryColor]</colordiffuse>
+						<aspectratio aligny="center">keep</aspectratio>
+					</control>
+				</control>
+				<control type="group">
+					<visible>Container.Content(addons)</visible>
+					<control type="image">
+						<posx>$PARAM[overlayleft]</posx>
+						<posy>0</posy>
+						<width>50</width>
+						<height>100</height>
+						<colordiffuse>$VAR[SecondaryColor]</colordiffuse>
+						<texture>$VAR[AddonOverlay]</texture>
+						<aspectratio aligny="center">keep</aspectratio>
+					</control>
+				</control>
 		    </control>
-			<control type="group">
-    			<visible>Container.Content(addons)</visible>
-			    <control type="image">
-    				<posx>$PARAM[overlayleft]</posx>
-				    <posy>0</posy>
-				    <width>30</width>
-				    <height>100</height>
-				    <texture>$VAR[AddonOverlay]</texture>
-				    <aspectratio aligny="center">keep</aspectratio>
-			    </control>
+		    <control type="group">
+		        <visible>!$PARAM[isfocused]</visible>
+				<control type="group">
+					<visible>[Container.Content(files) | Container.Content(videos) | Container.Content(sets) | Container.Content(Movies) | Container.Content(Episodes) | Container.Content(tvshows) | Container.Content(seasons)]</visible>
+					<control type="image">
+						<posx>$PARAM[overlayleft]</posx>
+						<posy>0</posy>
+						<width>50</width>
+						<height>100</height>
+						<texture diffuse="WhiteRoundedcbxST2.png">$VAR[Overlay]</texture>
+						<colordiffuse>$VAR[SecondaryColor]</colordiffuse>
+						<aspectratio aligny="center">keep</aspectratio>
+					</control>
+				</control>
+				<control type="group">
+					<visible>Container.Content(addons)</visible>
+					<control type="image">
+						<posx>$PARAM[overlayleft]</posx>
+						<posy>0</posy>
+						<width>50</width>
+						<height>100</height>
+						<colordiffuse>$VAR[SecondaryColor]</colordiffuse>
+						<texture diffuse="WhiteRoundedcbxST2.png">$VAR[AddonOverlay]</texture>
+						<aspectratio aligny="center">keep</aspectratio>
+					</control>
+				</control>
 		    </control>
 		</definition>
 	</include>

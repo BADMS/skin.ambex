@@ -148,6 +148,18 @@
             <size>34</size>
         </font>
         <font>
+            <name>InfoPlotBL</name>
+            <filename>UbuntuCondensed.ttf</filename>
+            <style>lighten</style>
+            <size>34</size>
+        </font>
+        <font>
+            <name>InfoPlotVP</name>
+            <filename>UbuntuCondensed.ttf</filename>
+            <style>lighten</style>
+            <size>34</size>
+        </font>
+        <font>
             <name>InfoPlotVI</name>
             <filename>UbuntuCondensed.ttf</filename>
             <style>bold lighten</style>
@@ -358,6 +370,18 @@
         </font>
         <font>
             <name>InfoPlot</name>
+            <filename>UbuntuCondensed.ttf</filename>
+            <style>lighten</style>
+            <size>28</size>
+        </font>
+        <font>
+            <name>InfoPlotBL</name>
+            <filename>UbuntuCondensed.ttf</filename>
+            <style>lighten</style>
+            <size>28</size>
+        </font>
+        <font>
+            <name>InfoPlotVP</name>
             <filename>UbuntuCondensed.ttf</filename>
             <style>lighten</style>
             <size>28</size>
@@ -590,6 +614,20 @@
         </font>
         <font>
             <name>InfoPlot</name>
+            <filename>arial.ttf</filename>
+            <size>28</size>
+            <aspect>0.96</aspect>
+            <linespacing>1.28</linespacing>
+        </font>
+        <font>
+            <name>InfoPlotBL</name>
+            <filename>arial.ttf</filename>
+            <size>28</size>
+            <aspect>0.96</aspect>
+            <linespacing>1.28</linespacing>
+        </font>
+        <font>
+            <name>InfoPlotVP</name>
             <filename>arial.ttf</filename>
             <size>28</size>
             <aspect>0.96</aspect>
@@ -831,6 +869,18 @@
             <aspect>1.0</aspect>
         </font>
         <font>
+            <name>InfoPlotBL</name>
+            <filename>arial.ttf</filename>
+            <size>31</size>
+            <aspect>1.0</aspect>
+        </font>
+        <font>
+            <name>InfoPlotVP</name>
+            <filename>arial.ttf</filename>
+            <size>31</size>
+            <aspect>1.0</aspect>
+        </font>
+        <font>
             <name>InfoPlotVI</name>
             <filename>UbuntuCondensed.ttf</filename>
             <style>bold lighten</style>
@@ -915,187 +965,240 @@
         <!-- Generic Normal Fonts -->
         <font>
             <name>font10</name>
-            <filename>NotoSans-Regular.ttf</filename>
-            <size>22</size>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <style>uppercase</style>
+            <size>24</size>
         </font>
         <font>
             <name>font12</name>
-            <filename>NotoSans-Regular.ttf</filename>
-            <size>28</size>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <style>uppercase</style>
+            <size>25</size>
         </font>
         <font>
             <name>font13</name>
-            <filename>NotoSans-Regular.ttf</filename>
-            <size>33</size>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <style>uppercase</style>
+            <size>30</size>
         </font>
         <font>
             <name>font14</name>
-            <filename>NotoSans-Regular.ttf</filename>
-            <size>36</size>
-        </font>
-        <font>
-            <name>font16</name>
-            <filename>NotoSans-Regular.ttf</filename>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <style>uppercase</style>
             <size>33</size>
         </font>
         <font>
+            <name>font16</name>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <style>uppercase</style>
+            <size>37</size>
+        </font>
+		<font>
+            <name>font18</name>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <style>uppercase</style>
+            <size>42</size>
+        </font>
+        <font>
             <name>font30</name>
-            <filename>NotoSans-Regular.ttf</filename>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <style>uppercase</style>
             <size>45</size>
         </font>
         <!-- Generic Title Fonts -->
         <font>
             <name>font10_title</name>
-            <filename>NotoSans-Regular.ttf</filename>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <style>bold uppercase</style>
             <size>20</size>
-            <style>bold</style>
         </font>
         <font>
             <name>font12_title</name>
-            <filename>NotoSans-Regular.ttf</filename>
-            <size>23</size>
-            <style>bold</style>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <style>bold uppercase</style>
+            <size>24</size>
         </font>
         <font>
             <name>font13_title</name>
-            <filename>NotoSans-Regular.ttf</filename>
-            <size>26</size>
-            <style>bold</style>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <style>bold uppercase</style>
+            <size>27</size>
         </font>
         <font>
             <name>font20_title</name>
-            <filename>NotoSans-Regular.ttf</filename>
-            <size>31</size>
-            <style>bold</style>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <style>bold uppercase</style>
+            <size>30</size>
         </font>
         <font>
             <name>font24_title</name>
-            <filename>NotoSans-Regular.ttf</filename>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <style>bold uppercase</style>
             <size>33</size>
-            <style>bold</style>
         </font>
         <font>
             <name>font28_title</name>
-            <filename>NotoSans-Regular.ttf</filename>
-            <size>40</size>
-            <style>bold</style>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <style>bold uppercase</style>
+            <size>39</size>
         </font>
         <font>
             <name>font30_title</name>
-            <filename>NotoSans-Regular.ttf</filename>
-            <size>43</size>
-            <style>bold</style>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <style>bold uppercase</style>
+            <size>42</size>
         </font>
         <font>
             <name>font35_title</name>
-            <filename>NotoSans-Regular.ttf</filename>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <style>bold uppercase</style>
             <size>46</size>
         </font>
         <font>
             <name>Clock</name>
-            <filename>NotoSans-Regular.ttf</filename>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <style>bold uppercase</style>
             <size>130</size>
         </font>
         <font>
             <name>Date</name>
-            <filename>NotoSans-Regular.ttf</filename>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <style>bold uppercase</style>
             <size>35</size>
         </font>
         <!-- Amber Fonts -->
         <font>
             <name>ExtProgressBar</name>
-            <filename>NotoSans-Regular.ttf</filename>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <size>18</size>
+        </font>
+        <font>
+            <name>FanartTitleFont</name>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <style>uppercase</style>
             <size>18</size>
         </font>
         <font>
             <name>ExtProgressBar2</name>
-            <filename>NotoSans-Regular.ttf</filename>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <style>uppercase</style>
             <size>19</size>
         </font>
         <font>
-            <name>FanartTitleFont</name>
-            <filename>NotoSans-Regular.ttf</filename>
-            <size>18</size>
-        </font>
-        <font>
             <name>font22</name>
-            <filename>NotoSans-Regular.ttf</filename>
-            <size>21</size>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <style>uppercase</style>
+            <size>22</size>
         </font>
         <font>
             <name>Shelf_Label</name>
-            <filename>RobotoCondensed-Regular.ttf</filename>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <style>uppercase</style>
             <size>26</size>
         </font>
         <font>
             <name>Shelf_Title</name>
-            <filename>RobotoCondensed-Regular.ttf</filename>
-            <size>26</size>
-            <style>bold</style>
-        </font>
-        <font>
-            <name>InfoPlot</name>
-            <filename>NotoSans-Regular.ttf</filename>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <style>uppercase</style>
             <size>28</size>
         </font>
         <font>
+            <name>InfoPlot</name>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <style>lighten</style>
+            <size>30</size>
+        </font>
+        <font>
+            <name>InfoPlotBL</name>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <style>lighten</style>
+            <size>40</size>
+        </font>
+        <font>
+            <name>InfoPlotVP</name>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <style>lighten</style>
+            <size>42</size>
+        </font>
+        <font>
             <name>InfoPlotVI</name>
-            <filename>UbuntuCondensed.ttf</filename>
-            <style>bold lighten</style>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <style>lighten</style>
             <size>34</size>
+        </font>
+		<font>
+            <name>InfoPlotSmall</name>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <style>lighten</style>
+            <size>28</size>
         </font>
         <font>
             <name>ListDetails</name>
-            <filename>NotoSans-Regular.ttf</filename>
-            <size>27</size>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <style>uppercase</style>
+            <size>28</size>
         </font>
         <font>
+            <name>ListDetailsSmall</name>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <style>uppercase</style>
+            <size>20</size>
+        </font>        
+        <font>
             <name>Details</name>
-            <filename>NotoSans-Regular.ttf</filename>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <style>uppercase</style>
             <size>30</size>
         </font>
         <font>
             <name>Keyboard</name>
-            <filename>NotoSans-Regular.ttf</filename>
+            <filename>arial.ttf</filename>
             <size>30</size>
         </font>
         <font>
             <name>InfoTitle</name>
-            <filename>NotoSans-Regular.ttf</filename>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <style>uppercase</style>
             <size>36</size>
             <style>bold</style>
         </font>
         <font>
             <name>MainLabelBig</name>
-            <filename>NotoSans-Regular.ttf</filename>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <style>uppercase</style>
             <size>39</size>
             <style>bold</style>
         </font>
         <font>
             <name>WeatherTitle</name>
-            <filename>NotoSans-Regular.ttf</filename>
-            <size>42</size>
+            <filename>BebasNeue.ttf</filename>
+            <size>45</size>
         </font>
         <font>
             <name>MainLabelBigTitle</name>
-            <filename>NotoSans-Regular.ttf</filename>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <style>uppercase</style>
             <size>44</size>
             <style>bold</style>
         </font>
         <font>
             <name>MainMenuVertical</name>
-            <filename>RobotoCondensed-Regular.ttf</filename>
+            <filename>BebasNeue.ttf</filename>
             <size>48</size>
         </font>
         <font>
             <name>MainMenuVerticalBig</name>
-            <filename>RobotoCondensed-Regular.ttf</filename>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <style>uppercase</style>
+			<aspect>0.75</aspect>
+			<align>top</align>
             <size>78</size>
+            <style>bold</style>
         </font>        
         <font>
             <name>MainMenu</name>
-            <filename>RobotoCondensed-Regular.ttf</filename>
-            <size>72</size>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <size>88</size>
         </font>
         <font>
             <name>Font40_Icon</name>
@@ -1104,7 +1207,8 @@
         </font>
         <font>
             <name>Mono26</name>
-            <filename>NotoSansMono-Regular.ttf</filename>
+            <filename>IBMPlexSansCondensed-Regular.ttf</filename>
+            <style>uppercase</style>
             <size>26</size>
         </font>        
     </fontset>

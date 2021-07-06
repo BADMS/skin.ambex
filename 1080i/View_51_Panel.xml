@@ -4,7 +4,7 @@
 	<include name="View_51_Panel">
 		<include content="BackgroundOverlay">
 			<param name="parentid" value="51"/>
-			<param name="overlaytop" value="300"/>
+			<param name="overlaytop" value="324"/>
 			<param name="overlayheight" value="1620"/>
 		</include>
 		<control type="group" description="Content">
@@ -66,7 +66,7 @@
 
 			<include content="PanelTemplate">
 				<param name="top">345</param>
-				<param name="height">440</param>
+				<param name="height">400</param>
                 <param name="width">860</param>
 				<param name="heading">$VAR[panelheading]</param>
 				<param name="subheading">$VAR[panelsubheading]</param>
@@ -78,7 +78,7 @@
 			</include>
 			<include content="PanelTemplate">
 				<param name="top">345</param>
-				<param name="height">405</param>
+				<param name="height">400</param>
                 <param name="width">860</param>
 				<param name="heading">$VAR[panelheading]</param>
 				<param name="subheading">$VAR[panelsubheading]</param>

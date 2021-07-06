@@ -6,7 +6,7 @@
 			<control type="group">
 				<include content="BackgroundOverlay">
 					<param name="parentid" value="501"/>
-					<param name="overlaytop" value="43"/>
+					<param name="overlaytop" value="40"/>
 					<param name="overlayheight" value="1860"/>
 				</include>
 				<visible>Control.IsVisible(501)</visible>
