@@ -83,6 +83,7 @@
 			<control type="image">
 				<!-- <animation effect="fade" delay="900" start="0" end="100" time="100" pulse="true" reversible="true" condition="true">Conditional</animation> -->
 				<animation effect="slide" delay="0" end="0,8" time="0" pulse="false" reversible="true" condition="String.IsEqual(Skin.Font, Trial)">Conditional</animation>
+				<animation effect="rotate" end="-360" time="400" center="auto" loop="true" reversible="true" condition="String.IsEmpty(Window(home).Property(ImageColorFIVE))">Conditional</animation>
 				<posx>0</posx>
 				<posy>35</posy>
 				<width>66</width>

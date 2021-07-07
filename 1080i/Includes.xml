@@ -2105,7 +2105,7 @@
 				<control type="label" description="Footer">
                     <visible>$PARAM[showfooter]</visible>
                     <width>$PARAM[width]</width>
-                    <height>30</height>
+                    <height>60</height>
                     <font>ListDetailsSmall</font>
                     <label>$PARAM[footer]</label>
                     <wrapmultiline>true</wrapmultiline>

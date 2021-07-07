@@ -182,6 +182,7 @@
 					<param name="plotgrouptop">150</param>
 					<param name="plotheight">276</param>
 					<param name="footertop">836</param>
+					<param name="footer2top">836</param>
 					<param name="flagstop">989</param>
 					<param name="heading">$VAR[panelheading]</param>
 					<param name="subheading">$VAR[panelsubheading]</param>
@@ -236,6 +237,7 @@
 					<param name="subheading2">$VAR[panelsubheading2]</param>
 					<param name="plotgrouptop">150</param>
 					<param name="footertop">836</param>
+					<param name="footer2top">836</param>
 					<param name="subheading2_visible">!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Next_Aired))</param>
 					<param name="plot">$VAR[Plots]</param>
 					<param name="footer">$VAR[panelfooter]</param>
@@ -313,6 +315,7 @@
 					<param name="plotgrouptop">150</param>
 					<param name="plotheight">276</param>
 					<param name="footertop">836</param>
+					<param name="footer2top">836</param>
 					<param name="flagstop">989</param>
 					<param name="heading">$VAR[panelheading]</param>
 					<param name="subheading">$VAR[panelsubheading]</param>
@@ -367,6 +370,7 @@
 					<param name="subheading2">$VAR[panelsubheading2]</param>
 					<param name="plotgrouptop">150</param>
 					<param name="footertop">836</param>
+					<param name="footer2top">836</param>
 					<param name="subheading2_visible">!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Next_Aired))</param>
 					<param name="plot">$VAR[Plots]</param>
 					<param name="footer">$VAR[panelfooter]</param>
