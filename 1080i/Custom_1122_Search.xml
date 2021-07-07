@@ -8,11 +8,72 @@
 	<controls>
     
 		<!-- background -->
-        <include>DefaultBackground</include>
+        <control type="image">
+            <include>Dimensions_Fullscreen</include>
+			<fadetime>500</fadetime>
+			<colordiffuse>$VAR[SecondaryColor]</colordiffuse>
+			<texture>WhiteDot.png</texture>
+        </control>
+        <control type="multiimage">
+			<left>-2160</left>
+            <visible>![Player.HasVideo + Skin.HasSetting(Show_VideoBackground)]</visible>
+            <include>Dimensions_Fullscreen</include>
+            <timeperimage>8000</timeperimage>
+            <imagepath background="true">$VAR[SubBackground]</imagepath>
+            <randomize>true</randomize>
+        </control>
+        <control type="image">
+            <visible>![Player.HasVideo + Skin.HasSetting(Show_VideoBackground)]</visible>
+            <include>Dimensions_Fullscreen</include>
+            <fadetime>1500</fadetime>
+            <texture background="true">$VAR[SubBackground]</texture>
+            <aspectratio>scale</aspectratio>
+		    <visible>![Control.HasFocus(101) | 
+                     Control.HasFocus(102) | 
+                     Control.HasFocus(103) | Control.HasFocus(104) | Control.HasFocus(105) | 
+                     Control.HasFocus(106) | Control.HasFocus(107) | Control.HasFocus(108) | 
+                     Control.HasFocus(109) | Control.HasFocus(110) | Control.HasFocus(111) | 
+                     Control.HasFocus(112) | Control.HasFocus(113) | Control.HasFocus(114) | 
+                     Control.HasFocus(115) | Control.HasFocus(116) | Control.HasFocus(117) | 
+                     Control.HasFocus(118) | Control.HasFocus(119) | Control.HasFocus(120) | 
+                     Control.HasFocus(121) | Control.HasFocus(122) | Control.HasFocus(123) | 
+                     Control.HasFocus(124) | Control.HasFocus(125) | Control.HasFocus(126)]</visible>
+        </control>
+        <control type="image">
+		    <include>Dimensions_Fullscreen</include>
+            <fadetime>1500</fadetime>
+		    <texture background="true">$INFO[Container.ListItem.Art(fanart)]</texture>
+		    <visible>Control.HasFocus(101) | 
+                     Control.HasFocus(102) | 
+                     Control.HasFocus(103) | Control.HasFocus(104) | Control.HasFocus(105) | 
+                     Control.HasFocus(106) | Control.HasFocus(107) | Control.HasFocus(108) | 
+                     Control.HasFocus(109) | Control.HasFocus(110) | Control.HasFocus(111) | 
+                     Control.HasFocus(112) | Control.HasFocus(113) | Control.HasFocus(114) | 
+                     Control.HasFocus(115) | Control.HasFocus(116) | Control.HasFocus(117) | 
+                     Control.HasFocus(118) | Control.HasFocus(119) | Control.HasFocus(120) | 
+                     Control.HasFocus(121) | Control.HasFocus(122) | Control.HasFocus(123) | 
+                     Control.HasFocus(124) | Control.HasFocus(125) | Control.HasFocus(126)</visible>
+		</control>
+        <control type="image">
+            <visible>![Player.HasVideo + Skin.HasSetting(Show_VideoBackground)]</visible>
+            <include>Dimensions_Fullscreen</include>
+			<fadetime>500</fadetime>
+			<colordiffuse>$VAR[SecondaryColor]</colordiffuse>
+			<texture diffuse="BlurMask2.png">$VAR[FiveImage]</texture>
+            <aspectratio>scale</aspectratio>
+        </control>
+        <control type="visualisation">
+            <visible>Player.HasAudio + Skin.HasSetting(Show_MusicVizBackground)</visible>
+            <include>Dimensions_Fullscreen</include>
+        </control>
+        <control type="videowindow">
+            <visible>Player.HasVideo + Skin.HasSetting(Show_VideoBackground)</visible>
+            <include>Dimensions_Fullscreen</include>
+        </control>
 		<include>OpenClose</include>
         
-        <control type="image">
-		    <posx>0</posx>
+        <control type="image" id="7975">
+		    <posx>-2160</posx>
 		    <posy>0</posy>
 		    <include>Dimensions_Fullscreen</include>
 		    <aspectratio>scale</aspectratio>
@@ -27,12 +88,9 @@
                      Control.HasFocus(118) | Control.HasFocus(119) | Control.HasFocus(120) | 
                      Control.HasFocus(121) | Control.HasFocus(122) | Control.HasFocus(123) | 
                      Control.HasFocus(124) | Control.HasFocus(125) | Control.HasFocus(126)</visible>
-		    <fadetime>600</fadetime>
-		    <animation effect="fade" time="600">Visible</animation>
-		    <animation effect="fade" time="600">Hidden</animation>
 		</control>
         
-        <include>BackgroundOverlaySearch</include>
+        <!-- <include>BackgroundOverlaySearch</include> -->
         
 		<!-- results -->
 		<control type="grouplist" id="10">

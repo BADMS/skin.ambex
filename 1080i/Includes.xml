@@ -361,8 +361,8 @@
                     <font>Details</font>
                     <urlset>1</urlset>
                     <shadowcolor>$VAR[DiffuseColor]</shadowcolor>
-                    <titlecolor>White2</titlecolor>
-                    <headlinecolor>White2</headlinecolor>
+                    <titlecolor>$VAR[HighlightColor]</titlecolor>
+                    <headlinecolor>$VAR[HighlightColor]</headlinecolor>
                     <textcolor>$VAR[LabelTextColor]</textcolor>
                 </control>
                 <control type="grouplist">
@@ -1868,7 +1868,7 @@
         <param name="visibility"></param>
         <param name="showfooter">true</param>
         <param name="showflags">true</param>
-		<param name="footertop">920</param>
+		<param name="footertop">945</param>
 		<param name="footerheight">155</param>
         <definition>
             <control type="grouplist" id="4000" description="Media Info Panel">
@@ -1892,7 +1892,6 @@
                     <textcolor>$VAR[HighlightColor]</textcolor>
 					<shadowcolor>$VAR[TextColor]</shadowcolor>
                     <font>font20_title</font>
-                    <wrapmultiline>true</wrapmultiline>
                     <label>$PARAM[heading]</label>
                 </control>
                 <control type="label" description="Title Label">
@@ -1904,7 +1903,6 @@
 					<shadowcolor>$VAR[TextColor]</shadowcolor>
                     <font>font20_title</font>
                     <label>$PARAM[heading]</label>
-					<wrapmultiline>true</wrapmultiline>
                 </control>
                 <control type="label" description="Subheading">
                     <visible>!$PARAM[lowpanel] + Skin.HasSetting(ShowAudioSub) + !Container.Content(addons)</visible>
@@ -1913,7 +1911,6 @@
                     <font>font20_title</font>
                     <label>[B]$PARAM[subheading][/B]</label>
                     <aligny>center</aligny>
-                    <wrapmultiline>true</wrapmultiline>
                 </control>
 				<control type="label" description="Subheading">
                     <visible>!$PARAM[lowpanel] + !Skin.HasSetting(ShowAudioSub) + !Container.Content(addons)</visible>
@@ -1922,7 +1919,6 @@
                     <font>font20_title</font>
                     <label>[B]$PARAM[subheading][/B]</label>
                     <aligny>center</aligny>
-                    <wrapmultiline>true</wrapmultiline>
                 </control>
 				<control type="label" description="Subheading">
 					<visible>$PARAM[lowpanel] + !Container.Content(addons)</visible>
@@ -1932,7 +1928,6 @@
                     <label>[B]$PARAM[subheading][/B]</label>
                     <aligny>center</aligny>
 					<scroll>false</scroll>
-					<wrapmultiline>true</wrapmultiline>
                 </control>
 				<!-- Audio/Sub info or Next Aired Episode info -->
 				<control type="group">
@@ -2091,7 +2086,7 @@
                 <control type="label" description="Footer">
                     <visible>$PARAM[showfooter] + !$PARAM[lowpanel]</visible>
                     <width>$PARAM[width]</width>
-                    <height>60</height>
+                    <height>30</height>
                     <font>ListDetailsSmall</font>
                     <label>$PARAM[footer]</label>
 				    <aligny>top</aligny>
@@ -2110,7 +2105,7 @@
 				<control type="label" description="Footer">
                     <visible>$PARAM[showfooter]</visible>
                     <width>$PARAM[width]</width>
-                    <height>60</height>
+                    <height>30</height>
                     <font>ListDetailsSmall</font>
                     <label>$PARAM[footer]</label>
                     <wrapmultiline>true</wrapmultiline>
@@ -2164,8 +2159,8 @@
         <param name="showfooter">true</param>
 		<param name="showfooter2">true</param>
         <param name="showflags">true</param>
-		<param name="footertop">845</param>
-		<param name="footer2top">885</param>
+		<param name="footertop">836</param>
+		<param name="footer2top">866</param>
         <param name="flagstop"></param>
 		<param name="footerheight">115</param>
         <definition>
@@ -2190,7 +2185,6 @@
                     <textcolor>$VAR[HighlightColor]</textcolor>
 					<shadowcolor>$VAR[TextColor]</shadowcolor>
                     <font>font20_title</font>
-                    <wrapmultiline>true</wrapmultiline>
                     <label>$PARAM[heading]</label>
                 </control>
                 <control type="label" description="Subheading">
@@ -2201,7 +2195,6 @@
                     <font>font20_title</font>
                     <label>[B]$PARAM[subheading][/B]</label>
                     <aligny>center</aligny>
-                    <wrapmultiline>true</wrapmultiline>
                 </control>
 				<control type="label" description="Subheading">
                     <top>65</top>
@@ -2211,7 +2204,6 @@
                     <font>font20_title</font>
                     <label>[B]$PARAM[subheading][/B]</label>
                     <aligny>center</aligny>
-                    <wrapmultiline>true</wrapmultiline>
                 </control>
 				<control type="label" description="Subheading2">
                     <top>127</top>
@@ -2333,7 +2325,6 @@
                     <height>75</height>
                     <font>ListDetails</font>
                     <label>$PARAM[footer]</label>
-                    <wrapmultiline>true</wrapmultiline>
                     <aligny>top</aligny>
                 </control>
             </control>

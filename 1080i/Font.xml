@@ -1190,7 +1190,7 @@
             <name>MainMenuVerticalBig</name>
             <filename>IBMPlexSansCondensed-Regular.ttf</filename>
             <style>uppercase</style>
-			<aspect>0.75</aspect>
+			<aspect>0.85</aspect>
 			<align>top</align>
             <size>78</size>
             <style>bold</style>

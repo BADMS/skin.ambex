@@ -15,8 +15,8 @@
 				<control type="$PARAM[ListType]" id="501">
 					<viewtype label="$LOCALIZE[32060]">list</viewtype>
 					<posx>540</posx>
-					<posy>105</posy>
-					<height>949</height>
+					<posy>146</posy>
+					<height>792</height>
 					<width>1340</width>
 					<pagecontrol>6501</pagecontrol>
 					<onleft condition="!Skin.HasSetting(KioskMode.Enabled)">9000</onleft>
@@ -162,7 +162,7 @@
 				</control>            
 
 				<include content="PanelTemplateTall">
-					<param name="top">270</param>
+					<param name="top">142</param>
 					<param name="left">605</param>
 					<param name="height">353</param>
 					<param name="width">590</param>
@@ -175,13 +175,13 @@
 				</include>
 
 				<include content="PanelTemplateTall">
-					<param name="top">258</param>
+					<param name="top">142</param>
 					<param name="left">605</param>
 					<param name="height">283</param>
 					<param name="width">590</param>
 					<param name="plotgrouptop">150</param>
 					<param name="plotheight">276</param>
-					<param name="footertop">485</param>
+					<param name="footertop">836</param>
 					<param name="flagstop">989</param>
 					<param name="heading">$VAR[panelheading]</param>
 					<param name="subheading">$VAR[panelsubheading]</param>
@@ -194,12 +194,12 @@
 				</include>
 
 				<include content="PanelTemplateTall">
-					<param name="top">118</param>
+					<param name="top">142</param>
 					<param name="left">605</param>
 					<param name="height">670</param>
 					<param name="width">590</param>
 					<param name="plotgrouptop">150</param>
-					<param name="footertop">845</param>
+					<param name="footertop">836</param>
 					<param name="flagstop">1005</param>
 					<param name="heading">$VAR[panelheading]</param>
 					<param name="subheading">$VAR[panelsubheading]</param>
@@ -212,12 +212,12 @@
 				</include>
 
 				<include content="PanelTemplateTall">
-					<param name="top">118</param>
+					<param name="top">142</param>
 					<param name="left">605</param>
 					<param name="height">645</param>
 					<param name="width">590</param>
 					<param name="plotgrouptop">150</param>
-					<param name="footertop">845</param>
+					<param name="footertop">836</param>
 					<param name="flagstop">1005</param>
 					<param name="heading">$VAR[panelheading]</param>
 					<param name="subheading">$VAR[panelsubheading]</param>
@@ -227,7 +227,7 @@
 				</include>
 
 				<include content="PanelTemplateTall">
-					<param name="top">118</param>
+					<param name="top">142</param>
 					<param name="left">605</param>
 					<param name="height">635</param>
 					<param name="width">590</param>
@@ -235,19 +235,19 @@
 					<param name="subheading">$VAR[panelsubheading]</param>
 					<param name="subheading2">$VAR[panelsubheading2]</param>
 					<param name="plotgrouptop">150</param>
-					<param name="footertop">815</param>
+					<param name="footertop">836</param>
 					<param name="subheading2_visible">!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Next_Aired))</param>
 					<param name="plot">$VAR[Plots]</param>
 					<param name="footer">$VAR[panelfooter]</param>
 					<param name="visibility">![$EXP[TallListPanelIsDisabled]] + ![$EXP[TallListPanelIsSwapped]] + [Container.content(tvshows) | Container.Content(seasons)]</param>
 				</include>            
 				<include content="PanelTemplateTall">
-					<param name="top">118</param>
+					<param name="top">142</param>
 					<param name="left">605</param>
 					<param name="height">680</param>
 					<param name="width">590</param>
 					<param name="plotgrouptop">150</param>
-					<param name="footertop">845</param>
+					<param name="footertop">836</param>
 					<param name="heading">$VAR[panelheading]</param>
 					<param name="subheading">$VAR[panelsubheading]</param>
 					<param name="footer">$VAR[panelfooter]</param>
@@ -255,12 +255,12 @@
 					<param name="visibility">![$EXP[TallListPanelIsDisabled]] + ![$EXP[TallListPanelIsSwapped]] + Container.content(sets)</param>
 				</include>
 				<include content="PanelTemplateTall">
-					<param name="top">118</param>
+					<param name="top">142</param>
 					<param name="left">605</param>
 					<param name="height">630</param>
 					<param name="width">590</param>
 					<param name="plotgrouptop">150</param>
-					<param name="footertop">845</param>
+					<param name="footertop">836</param>
 					<param name="heading">$VAR[panelheading]</param>
 					<param name="subheading">$VAR[panelsubheading]</param>
 					<param name="plot">$VAR[Plots]</param>
@@ -272,12 +272,12 @@
 					<param name="visibility">![$EXP[TallListPanelIsDisabled]] + ![$EXP[TallListPanelIsSwapped]] + Container.content(artists)</param>
 				</include>
 				<include content="PanelTemplateTall">
-					<param name="top">118</param>
+					<param name="top">142</param>
 					<param name="left">605</param>
 					<param name="height">630</param>
 					<param name="width">590</param>
 					<param name="plotgrouptop">150</param>
-					<param name="footertop">845</param>
+					<param name="footertop">836</param>
 					<param name="heading">$VAR[panelheading]</param>
 					<param name="subheading">$VAR[panelsubheading]</param>
 					<param name="plot">$VAR[Plots]</param>
@@ -293,7 +293,7 @@
 				</include>
 				
 				<include content="PanelTemplateTall">
-					<param name="top">270</param>
+					<param name="top">142</param>
 					<param name="left">1290</param>
 					<param name="height">353</param>
 					<param name="width">590</param>
@@ -306,13 +306,13 @@
 				</include>
 
 				<include content="PanelTemplateTall">
-					<param name="top">258</param>
+					<param name="top">142</param>
 					<param name="left">1290</param>
 					<param name="height">283</param>
 					<param name="width">590</param>
 					<param name="plotgrouptop">150</param>
 					<param name="plotheight">276</param>
-					<param name="footertop">485</param>
+					<param name="footertop">836</param>
 					<param name="flagstop">989</param>
 					<param name="heading">$VAR[panelheading]</param>
 					<param name="subheading">$VAR[panelsubheading]</param>
@@ -325,12 +325,12 @@
 				</include>
 
 				<include content="PanelTemplateTall">
-					<param name="top">118</param>
+					<param name="top">142</param>
 					<param name="left">1290</param>
 					<param name="height">670</param>
 					<param name="width">590</param>
 					<param name="plotgrouptop">150</param>
-					<param name="footertop">845</param>
+					<param name="footertop">836</param>
 					<param name="flagstop">1005</param>
 					<param name="heading">$VAR[panelheading]</param>
 					<param name="subheading">$VAR[panelsubheading]</param>
@@ -343,12 +343,12 @@
 				</include>
 
 				<include content="PanelTemplateTall">
-					<param name="top">118</param>
+					<param name="top">142</param>
 					<param name="left">1290</param>
 					<param name="height">645</param>
 					<param name="width">590</param>
 					<param name="plotgrouptop">150</param>
-					<param name="footertop">845</param>
+					<param name="footertop">836</param>
 					<param name="flagstop">1005</param>
 					<param name="heading">$VAR[panelheading]</param>
 					<param name="subheading">$VAR[panelsubheading]</param>
@@ -358,7 +358,7 @@
 				</include>
 
 				<include content="PanelTemplateTall">
-					<param name="top">118</param>
+					<param name="top">142</param>
 					<param name="left">1290</param>
 					<param name="height">635</param>
 					<param name="width">590</param>
@@ -366,19 +366,19 @@
 					<param name="subheading">$VAR[panelsubheading]</param>
 					<param name="subheading2">$VAR[panelsubheading2]</param>
 					<param name="plotgrouptop">150</param>
-					<param name="footertop">815</param>
+					<param name="footertop">836</param>
 					<param name="subheading2_visible">!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Next_Aired))</param>
 					<param name="plot">$VAR[Plots]</param>
 					<param name="footer">$VAR[panelfooter]</param>
 					<param name="visibility">![$EXP[TallListPanelIsDisabled]] + $EXP[TallListPanelIsSwapped] + [Container.content(tvshows) | Container.Content(seasons)]</param>
 				</include>            
 				<include content="PanelTemplateTall">
-					<param name="top">118</param>
+					<param name="top">142</param>
 					<param name="left">1290</param>
 					<param name="height">410</param>
 					<param name="width">590</param>
 					<param name="plotgrouptop">150</param>
-					<param name="footertop">845</param>
+					<param name="footertop">836</param>
 					<param name="heading">$VAR[panelheading]</param>
 					<param name="subheading">$VAR[panelsubheading]</param>
 					<param name="footer">$VAR[panelfooter]</param>
@@ -386,12 +386,12 @@
 					<param name="visibility">![$EXP[TallListPanelIsDisabled]] + $EXP[TallListPanelIsSwapped] + Container.content(sets)</param>
 				</include>
 				<include content="PanelTemplateTall">
-					<param name="top">118</param>
+					<param name="top">142</param>
 					<param name="left">1290</param>
 					<param name="height">630</param>
 					<param name="width">590</param>
 					<param name="plotgrouptop">150</param>
-					<param name="footertop">845</param>
+					<param name="footertop">836</param>
 					<param name="heading">$VAR[panelheading]</param>
 					<param name="subheading">$VAR[panelsubheading]</param>
 					<param name="plot">$VAR[Plots]</param>
@@ -403,12 +403,12 @@
 					<param name="visibility">![$EXP[TallListPanelIsDisabled]] + $EXP[TallListPanelIsSwapped] + Container.content(artists)</param>
 				</include>
 				<include content="PanelTemplateTall">
-					<param name="top">118</param>
+					<param name="top">142</param>
 					<param name="left">1290</param>
 					<param name="height">630</param>
 					<param name="width">590</param>
 					<param name="plotgrouptop">150</param>
-					<param name="footertop">845</param>
+					<param name="footertop">836</param>
 					<param name="heading">$VAR[panelheading]</param>
 					<param name="subheading">$VAR[panelsubheading]</param>
 					<param name="plot">$VAR[Plots]</param>

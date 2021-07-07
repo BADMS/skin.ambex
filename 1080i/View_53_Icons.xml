@@ -9,10 +9,10 @@
             <include>ContentFade</include>
             <control type="panel" id="53" description="Grid">
                 <viewtype label="$LOCALIZE[536]">list</viewtype>
-                <posx>20</posx>
-                <posy>60</posy>
+                <posx>30</posx>
+                <posy>71</posy>
                 <width>1860</width>
-                <height>903</height>
+                <height>988</height>
                 <orientation>vertical</orientation>
 				<onleft condition="!Skin.HasSetting(KioskMode.Enabled)">9000</onleft>
                 <onleft condition="Skin.HasSetting(KioskMode.Enabled)">noop</onleft>
@@ -70,7 +70,7 @@
                 <height>207</height>
                 <texture>overlay_20.png</texture>
             </control>
-            <include>FooterInfo</include>
+            <!-- <include>FooterInfo</include> -->
             
             <control type="scrollbar" id="63">
                 <animation effect="slide" start="0,0" end="-6,0" time="150">Focus</animation>

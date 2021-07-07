@@ -95,7 +95,7 @@
 				    <font>ListDetailsSmall</font>
 				    <align>center</align>
 				    <label>$VAR[UnwatchedEpisodes]</label>
-				    <textcolor>White2</textcolor>
+				    <textcolor>$VAR[HighlightColor]</textcolor>
 				</control>
 			</control>
 		</control>

@@ -60,7 +60,7 @@
             </control>
 
             <include content="PanelTemplate">
-                <param name="top">100</param>
+                <param name="top">56</param>
                 <param name="height">715</param>
                 <param name="width">850</param>
 				<param name="groupheight">850</param>
@@ -74,7 +74,7 @@
                 <param name="visibility">![Container.Content(artists) | Container.Content(albums) | Container.Content(images) | Container.Content(sets) | Container.Content(tvshows) | Container.Content(seasons)]</param>
             </include>
 			<include content="PanelTemplate">
-				<param name="top">100</param>
+				<param name="top">56</param>
 				<param name="height">640</param>
                 <param name="width">850</param>
 				<param name="groupheight">850</param>
@@ -88,7 +88,7 @@
 				<param name="visibility">[Container.Content(tvshows) | Container.Content(seasons)]</param>
 			</include>            
             <include content="PanelTemplate">
-                <param name="top">100</param>
+                <param name="top">56</param>
                 <param name="height">640</param>
                 <param name="width">850</param>
 				<param name="groupheight">850</param>
@@ -99,7 +99,7 @@
                 <param name="visibility">Container.Content(sets)</param>
             </include>
             <include content="PanelTemplate">
-                <param name="top">100</param>
+                <param name="top">56</param>
                 <param name="height">760</param>
                 <param name="width">850</param>
 				<param name="groupheight">850</param>
@@ -111,7 +111,7 @@
                 <param name="visibility">Container.Content(images)</param>
             </include>
             <include content="PanelTemplate">
-                <param name="top">100</param>
+                <param name="top">56</param>
                 <param name="height">710</param>
                 <param name="width">850</param>
 				<param name="groupheight">850</param>
@@ -128,7 +128,7 @@
                 <param name="visibility">Container.Content(artists)</param>
             </include>
             <include content="PanelTemplate">
-                <param name="top">100</param>
+                <param name="top">56</param>
                 <param name="height">680</param>
                 <param name="width">850</param>
 				<param name="groupheight">850</param>

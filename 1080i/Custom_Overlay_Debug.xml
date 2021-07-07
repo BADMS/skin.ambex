@@ -27,8 +27,7 @@
 				<shadowcolor>FF000000</shadowcolor>
 				<font>font13</font>
 				<align>left</align>
-				<label>AddonBrowser.xml</label>
-				<visible>Window.IsVisible(AddonBrowser.xml)</visible>
+				<label>$INFO[Window.Property(xmlfile)]</label>
 			</control>
 			<control type="label">
 				<width>780</width>

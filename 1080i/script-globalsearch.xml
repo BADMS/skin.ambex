@@ -202,7 +202,7 @@
 				        <width>1140</width>
 				        <height>50</height>
 				        <align>center</align>
-				        <textcolor>White2</textcolor>
+				        <textcolor>$VAR[HighlightColor]</textcolor>
 				        <shadowcolor>$VAR[DiffuseColor]</shadowcolor>
 				        <font>InfoTitle</font>
 				        <scroll>false</scroll>

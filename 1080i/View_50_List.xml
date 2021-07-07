@@ -16,7 +16,7 @@
 					<visible>[$EXP[Exp_View_50] + Skin.HasSetting(Enable.NewViewSelector)] | [!Skin.HasSetting(hide.listview) + !Skin.HasSetting(Enable.NewViewSelector)]</visible>
 					<viewtype label="$LOCALIZE[535]">list</viewtype>
 					<posx>540</posx>
-					<posy>406</posy>
+					<posy>355</posy>
 					<width>1340</width>
 					<height>648</height>
 					<pagecontrol>60</pagecontrol>
@@ -149,7 +149,7 @@
 
                 <!-- Panels in original position -->
 				<include content="PanelTemplate">
-					<param name="top">355</param>
+					<param name="top">340</param>
 					<param name="left">535</param>
 					<param name="height">400</param>
 					<param name="width">650</param>
@@ -162,7 +162,7 @@
 					<param name="visibility">Control.IsVisible(50) + ![$EXP[ListPanelIsDisabled]] + ![$EXP[ListPanelIsSwapped]] + [[[Container.Content(files) | Container.Content()] + !String.IsEmpty(ListItem.Plot)] | [Container.Content(videos) | Container.content(addons) | Container.Content(images) | Container.Content(games) | Container.content(movies) | Container.Content(musicvideos) | Container.Content(episodes)]]</param>
 				</include>
 				<include content="PanelTemplate">
-					<param name="top">355</param>
+					<param name="top">340</param>
 					<param name="left">535</param>
 					<param name="height">400</param>
 					<param name="plotheight">362</param>
@@ -176,7 +176,7 @@
 					<param name="visibility">Control.IsVisible(50) + ![$EXP[ListPanelIsDisabled]] + ![$EXP[ListPanelIsSwapped]] + [Container.content(tvshows) | Container.Content(seasons)]</param>
 				</include>            
 				<include content="PanelTemplate">
-					<param name="top">355</param>
+					<param name="top">340</param>
 					<param name="left">535</param>
 					<param name="height">400</param>
 					<param name="width">650</param>
@@ -186,7 +186,7 @@
 					<param name="visibility">Control.IsVisible(50) + ![$EXP[ListPanelIsDisabled]] + ![$EXP[ListPanelIsSwapped]] + Container.content(sets)</param>
 				</include>
 				<include content="PanelTemplate">
-					<param name="top">355</param>
+					<param name="top">340</param>
 					<param name="left">535</param>
 					<param name="height">400</param>
 					<param name="width">650</param>
@@ -201,7 +201,7 @@
 					<param name="visibility">Control.IsVisible(50) + ![$EXP[ListPanelIsDisabled]] + ![$EXP[ListPanelIsSwapped]] + Container.content(artists)</param>
 				</include>
 				<include content="PanelTemplate">
-					<param name="top">355</param>
+					<param name="top">340</param>
 					<param name="left">535</param>
 					<param name="height">400</param>
 					<param name="width">650</param>
@@ -221,7 +221,7 @@
 
 				<!-- Panels in swapped position -->
 				<include content="PanelTemplate">
-					<param name="top">355</param>
+					<param name="top">340</param>
 					<param name="left">1230</param>
 					<param name="height">400</param>
 					<param name="width">650</param>
@@ -234,7 +234,7 @@
 					<param name="visibility">Control.IsVisible(50) + ![$EXP[ListPanelIsDisabled]] + $EXP[ListPanelIsSwapped] + [[[Container.Content(files) | Container.Content()] + !String.IsEmpty(ListItem.Plot)] | [Container.Content(videos) | Container.content(addons) | Container.Content(images) | Container.Content(games) | Container.content(movies) | Container.Content(musicvideos) | Container.Content(episodes)]]</param>
 				</include>
 				<include content="PanelTemplate">
-					<param name="top">355</param>
+					<param name="top">340</param>
 					<param name="left">1230</param>
 					<param name="height">400</param>
 					<param name="width">650</param>
@@ -247,7 +247,7 @@
 					<param name="visibility">Control.IsVisible(50) + ![$EXP[ListPanelIsDisabled]] + $EXP[ListPanelIsSwapped] + [Container.content(tvshows) | Container.Content(seasons)]</param>
 				</include>            
 				<include content="PanelTemplate">
-					<param name="top">355</param>
+					<param name="top">340</param>
 					<param name="left">1230</param>
 					<param name="height">400</param>
 					<param name="width">650</param>
@@ -257,7 +257,7 @@
 					<param name="visibility">Control.IsVisible(50) + ![$EXP[ListPanelIsDisabled]] + $EXP[ListPanelIsSwapped] + Container.content(sets)</param>
 				</include>
 				<include content="PanelTemplate">
-					<param name="top">355</param>
+					<param name="top">340</param>
 					<param name="left">1230</param>
 					<param name="height">400</param>
 					<param name="width">650</param>
@@ -272,7 +272,7 @@
 					<param name="visibility">Control.IsVisible(50) + ![$EXP[ListPanelIsDisabled]] + $EXP[ListPanelIsSwapped] + Container.content(artists)</param>
 				</include>
 				<include content="PanelTemplate">
-					<param name="top">355</param>
+					<param name="top">340</param>
 					<param name="left">1230</param>
 					<param name="height">400</param>
 					<param name="width">650</param>

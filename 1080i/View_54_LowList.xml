@@ -16,9 +16,9 @@
 					<viewtype label="$LOCALIZE[31962]">list</viewtype>
 					<visible>[$EXP[Exp_View_54] + Skin.HasSetting(Enable.NewViewSelector)] | [!Skin.HasSetting(hide.lowlistview) + !Skin.HasSetting(Enable.NewViewSelector)]</visible>
 					<posx>340</posx>
-					<posy>633</posy>
+					<posy>625</posy>
 					<width>1540</width>
-					<height>441</height>
+					<height>360</height>
 					<pagecontrol>64</pagecontrol>				
 					<onleft condition="!Skin.HasSetting(KioskMode.Enabled)">9000</onleft>
 					<onleft condition="Skin.HasSetting(KioskMode.Enabled)">noop</onleft>
@@ -195,12 +195,12 @@
                 <!-- Info panels in original position -->
 				<include content="PanelTemplate">
 					<param name="lowpanel">true</param>
-					<param name="top">600</param>
+					<param name="top">615</param>
 					<param name="left">355</param>
 					<param name="groupheight">365</param>
-					<param name="footertop">965</param>
+					<param name="footertop">938</param>
 		            <param name="footerheight">115</param>
-					<param name="height">205</param>
+					<param name="height">170</param>
 					<param name="width">850</param>
 					<param name="heading">$VAR[panelheading]</param>
 					<param name="subheading">$VAR[panelsubheading]</param>
@@ -213,9 +213,9 @@
 
 				<include content="PanelTemplate">
 					<param name="lowpanel">true</param>
-					<param name="top">610</param>
+					<param name="top">615</param>
 					<param name="left">355</param>
-					<param name="height">205</param>
+					<param name="height">170</param>
 					<param name="width">850</param>
 					<param name="heading">$VAR[panelheading]</param>
 					<param name="subheading">$VAR[panelsubheading]</param>
@@ -224,13 +224,13 @@
 					<param name="plot">$VAR[Plots]</param>
 					<param name="footer">$VAR[panelfooter]</param>
 					<param name="showflags">false</param>
-					<param name="footertop">990</param>
+					<param name="footertop">938</param>
 		            <param name="footerheight">90</param>
 					<param name="visibility">![$EXP[LowListPanelIsDisabled]] + ![$EXP[LowListPanelIsSwapped]] + [Container.content(seasons) | Container.Content(tvshows)] + $EXP[PanelShouldShow]</param>
 				</include>            
 				<include content="PanelTemplate">
 					<param name="lowpanel">true</param>
-					<param name="top">610</param>
+					<param name="top">615</param>
 					<param name="left">355</param>
 					<param name="height">270</param>
 					<param name="width">850</param>
@@ -238,13 +238,13 @@
 					<param name="subheading">$VAR[panelsubheading]</param>
 					<param name="plot">$VAR[Plots]</param>
 					<param name="footer">$VAR[panelfooter]</param>
-					<param name="footertop">990</param>
+					<param name="footertop">938</param>
 					<param name="showfooter">false</param>
 					<param name="visibility">![$EXP[LowListPanelIsDisabled]] + ![$EXP[LowListPanelIsSwapped]] + [Container.content(addons) | Container.content(images) | Container.content(games) | Container.Content(sets)]</param>
 				</include>
 				<include content="PanelTemplate">
 					<param name="lowpanel">true</param>
-					<param name="top">610</param>
+					<param name="top">615</param>
 					<param name="left">355</param>
 					<param name="height">280</param>
 					<param name="width">850</param>
@@ -257,14 +257,14 @@
 					<param name="subcontent_image_visible">false</param>
 					<param name="showfooter">false</param>
 					<param name="footer">$VAR[panelfooter]</param>
-					<param name="footertop">1000</param>
+					<param name="footertop">938</param>
 		            <param name="footerheight">75</param>
 					<param name="showflags">false</param>
 					<param name="visibility">Container.Content(artists) + ![$EXP[LowListPanelIsDisabled]] + ![$EXP[LowListPanelIsSwapped]]</param>
 				</include>
 				<include content="PanelTemplate">
 					<param name="lowpanel">true</param>
-					<param name="top">610</param>
+					<param name="top">615</param>
 					<param name="left">355</param>
 					<param name="height">240</param>
 					<param name="width">850</param>
@@ -279,7 +279,7 @@
 					<param name="subcontent_visible">String.IsEmpty(ListItem.Property(Album_Description))</param>
 					<param name="subcontent_image_visible">false</param>
 					<param name="footer">$VAR[panelfooter]</param>
-					<param name="footertop">1000</param>
+					<param name="footertop">938</param>
 		            <param name="footerheight">75</param>
 					<param name="showflags">false</param>
 					<param name="visibility">Container.Content(albums) + ![$EXP[LowListPanelIsDisabled]] + ![$EXP[LowListPanelIsSwapped]]</param>
@@ -288,12 +288,12 @@
 				<!-- Info panels in swapped position -->
 				<include content="PanelTemplate">
 					<param name="lowpanel">true</param>
-					<param name="top">600</param>
+					<param name="top">615</param>
 					<param name="left">1020</param>
 					<param name="groupheight">365</param>
-					<param name="footertop">965</param>
+					<param name="footertop">938</param>
 		            <param name="footerheight">115</param>
-					<param name="height">205</param>
+					<param name="height">170</param>
 					<param name="width">850</param>
 					<param name="heading">$VAR[panelheading]</param>
 					<param name="subheading">$VAR[panelsubheading]</param>
@@ -306,9 +306,9 @@
 
 				<include content="PanelTemplate">
 					<param name="lowpanel">true</param>
-					<param name="top">610</param>
+					<param name="top">615</param>
 					<param name="left">1020</param>
-					<param name="height">205</param>
+					<param name="height">170</param>
 					<param name="width">850</param>
 					<param name="heading">$VAR[panelheading]</param>
 					<param name="subheading">$VAR[panelsubheading]</param>
@@ -317,13 +317,13 @@
 					<param name="plot">$VAR[Plots]</param>
 					<param name="footer">$VAR[panelfooter]</param>
 					<param name="showflags">false</param>
-					<param name="footertop">990</param>
+					<param name="footertop">938</param>
 		            <param name="footerheight">90</param>
 					<param name="visibility">![$EXP[LowListPanelIsDisabled]] + $EXP[LowListPanelIsSwapped] + [Container.content(seasons) | Container.Content(tvshows)] + $EXP[PanelShouldShow]</param>
 				</include>            
 				<include content="PanelTemplate">
 					<param name="lowpanel">true</param>
-					<param name="top">610</param>
+					<param name="top">615</param>
 					<param name="left">1020</param>
 					<param name="height">270</param>
 					<param name="width">850</param>
@@ -336,7 +336,7 @@
 				</include>
 				<include content="PanelTemplate">
 					<param name="lowpanel">true</param>
-					<param name="top">610</param>
+					<param name="top">615</param>
 					<param name="left">1020</param>
 					<param name="height">280</param>
 					<param name="width">850</param>
@@ -349,14 +349,14 @@
 					<param name="subcontent_image_visible">false</param>
 					<param name="showfooter">false</param>
 					<param name="footer">$VAR[panelfooter]</param>
-					<param name="footertop">1000</param>
+					<param name="footertop">938</param>
 		            <param name="footerheight">75</param>
 					<param name="showflags">false</param>
 					<param name="visibility">Container.Content(artists) + ![$EXP[LowListPanelIsDisabled]] + $EXP[LowListPanelIsSwapped]</param>
 				</include>
 				<include content="PanelTemplate">
 					<param name="lowpanel">true</param>
-					<param name="top">610</param>
+					<param name="top">615</param>
 					<param name="left">1020</param>
 					<param name="height">240</param>
 					<param name="width">850</param>
@@ -371,7 +371,7 @@
 					<param name="subcontent_visible">String.IsEmpty(ListItem.Property(Album_Description))</param>
 					<param name="subcontent_image_visible">false</param>
 					<param name="footer">$VAR[panelfooter]</param>
-					<param name="footertop">1000</param>
+					<param name="footertop">938</param>
 		            <param name="footerheight">75</param>
 					<param name="showflags">false</param>
 					<param name="visibility">Container.Content(albums) + ![$EXP[LowListPanelIsDisabled]] + $EXP[LowListPanelIsSwapped]</param>

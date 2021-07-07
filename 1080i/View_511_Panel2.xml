@@ -64,7 +64,7 @@
 			</control>
 
 			<include content="PanelTemplate">
-				<param name="top">345</param>
+				<param name="top">355</param>
 				<param name="left">1000</param>
 				<param name="height">400</param>
                 <param name="width">860</param>
@@ -77,7 +77,7 @@
 				<param name="visibility">![Container.Content(artists) | Container.Content(albums) | Container.Content(images) | Container.Content(sets) | Container.Content(tvshows) | Container.Content(seasons)]</param>
 			</include>
 			<include content="PanelTemplate">
-				<param name="top">345</param>
+				<param name="top">355</param>
 				<param name="left">1000</param>
 				<param name="height">400</param>
                 <param name="width">860</param>
@@ -91,7 +91,7 @@
 				<param name="visibility">[Container.Content(tvshows) | Container.Content(seasons)]</param>
 			</include>            
 			<include content="PanelTemplate">
-				<param name="top">345</param>
+				<param name="top">355</param>
 				<param name="left">1000</param>
 				<param name="height">445</param>
                 <param name="width">860</param>
@@ -101,7 +101,7 @@
 				<param name="visibility">Container.Content(sets)</param>
 			</include>
 			<include content="PanelTemplate">
-				<param name="top">345</param>
+				<param name="top">355</param>
 				<param name="left">1000</param>
 				<param name="height">545</param>
                 <param name="width">860</param>
@@ -112,7 +112,7 @@
 				<param name="visibility">Container.Content(images)</param>
 			</include>
 			<include content="PanelTemplate">
-				<param name="top">345</param>
+				<param name="top">355</param>
 				<param name="left">1000</param>
 				<param name="height">440</param>
                 <param name="width">860</param>
@@ -127,7 +127,7 @@
 				<param name="visibility">Container.Content(artists)</param>
 			</include>
 			<include content="PanelTemplate">
-				<param name="top">345</param>
+				<param name="top">355</param>
 				<param name="left">1000</param>
 				<param name="height">440</param>
                 <param name="width">860</param>
