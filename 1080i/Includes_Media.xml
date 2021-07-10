@@ -2381,131 +2381,134 @@
 		<param name="belowtextboxbackheight"></param>
 		<param name="belowtextboxbackwidth"></param>
 		<definition>
-			<control type="image">
-				<visible>!$PARAM[isFocused]</visible>
-				<left>$PARAM[shadowoffset]</left>
-				<top>$PARAM[shadowoffset]</top>
-				<width>$PARAM[iconwidth]</width>
-				<height>$PARAM[iconheight]</height>
-				<aspectratio align="$PARAM[align]" aligny="$PARAM[aligny]">$PARAM[aspect]</aspectratio>
-				<texture background="true" fallback="$PARAM[fallbackicon]">$PARAM[iconimage]</texture>
-				<colordiffuse>HeavyShadow</colordiffuse>
-				<bordersize>$PARAM[bordersizeLT],$PARAM[bordersizeLT],$PARAM[bordersizeRB],$PARAM[bordersizeRB]</bordersize>
-			</control>
-			<control type="image">
-				<visible>$PARAM[isFocused]</visible>
-				<animation effect="fade" start="20" end="100" time="800" pulse="true" reversible="true" condition="true">Conditional</animation>
-				<left>$PARAM[shadowoffset]</left>
-				<top>$PARAM[shadowoffset]</top>
-				<width>$PARAM[iconwidth]</width>
-				<height>$PARAM[iconheight]</height>
-				<aspectratio align="$PARAM[align]" aligny="$PARAM[aligny]">$PARAM[aspect]</aspectratio>
-				<texture background="true" fallback="$PARAM[fallbackicon]">WhiteDot.png</texture>
-				<colordiffuse>$VAR[UnFocusedColor]</colordiffuse>
-				<bordersize>$PARAM[bordersizeLT],$PARAM[bordersizeLT],$PARAM[bordersizeRB],$PARAM[bordersizeRB]</bordersize>
-			</control>
 			<control type="group">
-				<left>$PARAM[iconoffset]</left>
-				<top>$PARAM[iconoffset]</top>
-				<width>$PARAM[iconwidth]</width>
-				<height>$PARAM[iconheight]</height>
-				<control type="image">
-					<visible>$PARAM[isFocused]</visible>
-					<texture background="true" fallback="$PARAM[fallbackicon]">$PARAM[iconimage]</texture>
-					<bordersize>$PARAM[bordersizeLT],$PARAM[bordersizeLT],$PARAM[bordersizeRB],$PARAM[bordersizeRB]</bordersize>
-					<aspectratio align="$PARAM[align]" aligny="$PARAM[aligny]">$PARAM[aspect]</aspectratio>
-				</control>
+				<animation effect="zoom" time="0" delay="0" center="auto" start="100" end="104" tween="cubic" reversible="true" condition="$PARAM[isFocused]">Conditional</animation>
 				<control type="image">
 					<visible>!$PARAM[isFocused]</visible>
-					<texture background="true" fallback="$PARAM[fallbackicon]">$PARAM[iconimage]</texture>
-					<bordersize>$PARAM[bordersizeLT],$PARAM[bordersizeLT],$PARAM[bordersizeRB],$PARAM[bordersizeRB]</bordersize>
+					<left>$PARAM[shadowoffset]</left>
+					<top>$PARAM[shadowoffset]</top>
+					<width>$PARAM[iconwidth]</width>
+					<height>$PARAM[iconheight]</height>
 					<aspectratio align="$PARAM[align]" aligny="$PARAM[aligny]">$PARAM[aspect]</aspectratio>
-					<colordiffuse>eeeeeeee</colordiffuse>
+					<texture background="true" fallback="$PARAM[fallbackicon]">$PARAM[iconimage]</texture>
+					<colordiffuse>HeavyShadow</colordiffuse>
+					<bordersize>$PARAM[bordersizeLT],$PARAM[bordersizeLT],$PARAM[bordersizeRB],$PARAM[bordersizeRB]</bordersize>
 				</control>
-				<include condition="Skin.HasSetting(ShowTopRightOverlays) + !ListItem.IsRecording + !String.StartsWith(ListItem.FolderPath,pvr) + $PARAM[showOverlay]" content="TopRightOverlayTemplate">
-				    <param name="isFocused">$PARAM[isFocused]</param>
-					<param name="isSmallIcon">$PARAM[isSmallIcon]</param>
-					<param name="isSearch">$PARAM[isSearch]</param>
-					<param name="isBanner">$PARAM[isBanner]</param>
-					<param name="isSquare">$PARAM[isSquare]</param>
-					<param name="isWideIcon">$PARAM[isWideIcon]</param>
-					<param name="isTripleRow">$PARAM[isTripleRow]</param>
-					<param name="isTripleRowMedium">$PARAM[isTripleRowMedium]</param>
-					<param name="isTripleRowLarge">$PARAM[isTripleRowLarge]</param>
-					<param name="isTripleShelvesTogether">$PARAM[isTripleShelvesTogether]</param>
-					<param name="isLowWidget">$PARAM[isLowWidget]</param>
-				</include>	
-				<include content="GenericThumbLabelTemplate">
-					<param name="isFocused">$PARAM[isFocused]</param>
-					<param name="yoffset">$PARAM[overlaylabelyoffset]</param>
-					<param name="xoffset">$PARAM[iconoffset]</param>
-					<param name="labelwidth">$PARAM[iconwidth]</param>
-					<param name="labelheight">$PARAM[overlaylabelheight]</param>
-					<param name="labelvisibility">$PARAM[overlaylabelvisibility]</param>
-					<param name="labeltext">$PARAM[overlaylabel]</param>
-					<param name="labelalign">$PARAM[overlaylabelalign]</param>
-					<param name="labelfont">$PARAM[overlaylabelfont]</param>
-					<param name="labelscroll">$PARAM[overlaylabelscroll]</param>
-					<param name="bordersize">$PARAM[bordersizeLT],0,$PARAM[bordersizeRB],0</param>
-				</include>
-				<include content="GenericBelowLabelTemplate">
-					<param name="isFocused">$PARAM[isFocused]</param>
-					<param name="yoffset">-8r</param>
-					<param name="xoffset">0</param>
-					<param name="labelwidth">$PARAM[iconwidth]</param>
-					<param name="labelvisibility">$PARAM[belowlabelvisibility]</param>
-					<param name="labeltext">$PARAM[belowlabel]</param>
-					<param name="labelfont">$PARAM[belowlabelfont]</param>
-					<param name="labelalign">$PARAM[belowlabelalign]</param>
-                    <param name="labelheight">$PARAM[belowlabelheight]</param>
-					<param name="bordersize">$PARAM[bordersizeLT],0,$PARAM[bordersizeLT],0</param>
-				</include>
-				<include content="GenericBelowDoubleLabelTemplate">
-					<param name="isFocused">$PARAM[isFocused]</param>
-					<param name="yoffset">-8r</param>
-					<param name="xoffset">0</param>
-					<param name="labelwidth">$PARAM[iconwidth]</param>
-					<param name="labelvisibility">$PARAM[belowdoublelabelvisibility]</param>
-					<param name="labeltext1">$PARAM[belowdoublelabel1]</param>
-					<param name="labeltext2">$PARAM[belowdoublelabel2]</param>
-                    <param name="labelfont1">$PARAM[labelfont1]</param>
-                    <param name="labelfont2">$PARAM[labelfont2]</param>
-					<param name="labelalign">$PARAM[belowdoublelabelalign]</param>
-					<param name="bordersize">$PARAM[bordersizeLT],0,$PARAM[bordersizeLT],0</param>
-				</include>
-				<include content="GenericBelowTextboxTemplate">
-					<param name="isFocused">$PARAM[isFocused]</param>
-					<param name="yoffset">-8r</param>
-					<param name="xoffset">$PARAM[belowtextboxleft]</param>
-					<param name="labelwidth">$PARAM[belowtextboxbackwidth]</param>
-					<param name="labelvisibility">$PARAM[belowtextboxvisibility]</param>
-					<param name="labeltext">$PARAM[belowtextbox]</param>
-					<param name="labelalign">$PARAM[belowtextboxalign]</param>
-					<param name="textboxwidth">$PARAM[belowtextboxwidth]</param>
-					<param name="bordersize">$PARAM[bordersizeLT]</param>
-                    <param name="belowtextboxfont">$PARAM[belowtextboxfont]</param>
-					<param name="textboxheight">$PARAM[belowtextboxheight]</param>
-					<param name="backgroundheight">$PARAM[belowtextboxbackheight]</param>
-				</include>
-				<control type="image" description="Watched Overlay">
-					<visible>!$PARAM[isFocused] + $PARAM[showOverlay] + [!Skin.HasSetting(ShowTopRightOverlays) | [Skin.HasSetting(ShowTopRightOverlays) + [![$EXP[IsIconView]] | ListItem.IsRecording | String.StartsWith(ListItem.FolderPath,pvr)]]]</visible>
-					<left>77r</left>
-					<top>89r</top>
-					<width>50</width>
-					<height>72</height>
-					<colordiffuse>$VAR[SecondaryColor]</colordiffuse>
-					<texture diffuse="WhiteRoundedcbxST2.png">$VAR[Overlay]</texture>
-					<aspectratio aligny="center">keep</aspectratio>
+				<control type="image">
+					<visible>$PARAM[isFocused]</visible>
+					<animation effect="fade" start="20" end="100" time="800" pulse="true" reversible="true" condition="true">Conditional</animation>
+					<left>$PARAM[shadowoffset]</left>
+					<top>$PARAM[shadowoffset]</top>
+					<width>$PARAM[iconwidth]</width>
+					<height>$PARAM[iconheight]</height>
+					<aspectratio align="$PARAM[align]" aligny="$PARAM[aligny]">$PARAM[aspect]</aspectratio>
+					<texture background="true" fallback="$PARAM[fallbackicon]">WhiteDot.png</texture>
+					<colordiffuse>$VAR[UnFocusedColor]</colordiffuse>
+					<bordersize>$PARAM[bordersizeLT],$PARAM[bordersizeLT],$PARAM[bordersizeRB],$PARAM[bordersizeRB]</bordersize>
 				</control>
-				<control type="image" description="Watched Overlay">
-					<visible>$PARAM[isFocused] + $PARAM[showOverlay] + [!Skin.HasSetting(ShowTopRightOverlays) | [Skin.HasSetting(ShowTopRightOverlays) + [![$EXP[IsIconView]] | ListItem.IsRecording | String.StartsWith(ListItem.FolderPath,pvr)]]]</visible>
-					<left>77r</left>
-					<top>89r</top>
-					<width>50</width>
-					<height>72</height>
-					<colordiffuse>$VAR[SecondaryColor]</colordiffuse>
-					<texture>$VAR[Overlay]</texture>
-					<aspectratio aligny="center">keep</aspectratio>
+				<control type="group">
+					<left>$PARAM[iconoffset]</left>
+					<top>$PARAM[iconoffset]</top>
+					<width>$PARAM[iconwidth]</width>
+					<height>$PARAM[iconheight]</height>
+					<control type="image">
+						<visible>$PARAM[isFocused]</visible>
+						<texture background="true" fallback="$PARAM[fallbackicon]">$PARAM[iconimage]</texture>
+						<bordersize>$PARAM[bordersizeLT],$PARAM[bordersizeLT],$PARAM[bordersizeRB],$PARAM[bordersizeRB]</bordersize>
+						<aspectratio align="$PARAM[align]" aligny="$PARAM[aligny]">$PARAM[aspect]</aspectratio>
+					</control>
+					<control type="image">
+						<visible>!$PARAM[isFocused]</visible>
+						<texture background="true" fallback="$PARAM[fallbackicon]">$PARAM[iconimage]</texture>
+						<bordersize>$PARAM[bordersizeLT],$PARAM[bordersizeLT],$PARAM[bordersizeRB],$PARAM[bordersizeRB]</bordersize>
+						<aspectratio align="$PARAM[align]" aligny="$PARAM[aligny]">$PARAM[aspect]</aspectratio>
+						<colordiffuse>eeeeeeee</colordiffuse>
+					</control>
+					<include condition="Skin.HasSetting(ShowTopRightOverlays) + !ListItem.IsRecording + !String.StartsWith(ListItem.FolderPath,pvr) + $PARAM[showOverlay]" content="TopRightOverlayTemplate">
+						<param name="isFocused">$PARAM[isFocused]</param>
+						<param name="isSmallIcon">$PARAM[isSmallIcon]</param>
+						<param name="isSearch">$PARAM[isSearch]</param>
+						<param name="isBanner">$PARAM[isBanner]</param>
+						<param name="isSquare">$PARAM[isSquare]</param>
+						<param name="isWideIcon">$PARAM[isWideIcon]</param>
+						<param name="isTripleRow">$PARAM[isTripleRow]</param>
+						<param name="isTripleRowMedium">$PARAM[isTripleRowMedium]</param>
+						<param name="isTripleRowLarge">$PARAM[isTripleRowLarge]</param>
+						<param name="isTripleShelvesTogether">$PARAM[isTripleShelvesTogether]</param>
+						<param name="isLowWidget">$PARAM[isLowWidget]</param>
+					</include>	
+					<include content="GenericThumbLabelTemplate">
+						<param name="isFocused">$PARAM[isFocused]</param>
+						<param name="yoffset">$PARAM[overlaylabelyoffset]</param>
+						<param name="xoffset">$PARAM[iconoffset]</param>
+						<param name="labelwidth">$PARAM[iconwidth]</param>
+						<param name="labelheight">$PARAM[overlaylabelheight]</param>
+						<param name="labelvisibility">$PARAM[overlaylabelvisibility]</param>
+						<param name="labeltext">$PARAM[overlaylabel]</param>
+						<param name="labelalign">$PARAM[overlaylabelalign]</param>
+						<param name="labelfont">$PARAM[overlaylabelfont]</param>
+						<param name="labelscroll">$PARAM[overlaylabelscroll]</param>
+						<param name="bordersize">$PARAM[bordersizeLT],0,$PARAM[bordersizeRB],0</param>
+					</include>
+					<include content="GenericBelowLabelTemplate">
+						<param name="isFocused">$PARAM[isFocused]</param>
+						<param name="yoffset">-8r</param>
+						<param name="xoffset">0</param>
+						<param name="labelwidth">$PARAM[iconwidth]</param>
+						<param name="labelvisibility">$PARAM[belowlabelvisibility]</param>
+						<param name="labeltext">$PARAM[belowlabel]</param>
+						<param name="labelfont">$PARAM[belowlabelfont]</param>
+						<param name="labelalign">$PARAM[belowlabelalign]</param>
+						<param name="labelheight">$PARAM[belowlabelheight]</param>
+						<param name="bordersize">$PARAM[bordersizeLT],0,$PARAM[bordersizeLT],0</param>
+					</include>
+					<include content="GenericBelowDoubleLabelTemplate">
+						<param name="isFocused">$PARAM[isFocused]</param>
+						<param name="yoffset">-8r</param>
+						<param name="xoffset">0</param>
+						<param name="labelwidth">$PARAM[iconwidth]</param>
+						<param name="labelvisibility">$PARAM[belowdoublelabelvisibility]</param>
+						<param name="labeltext1">$PARAM[belowdoublelabel1]</param>
+						<param name="labeltext2">$PARAM[belowdoublelabel2]</param>
+						<param name="labelfont1">$PARAM[labelfont1]</param>
+						<param name="labelfont2">$PARAM[labelfont2]</param>
+						<param name="labelalign">$PARAM[belowdoublelabelalign]</param>
+						<param name="bordersize">$PARAM[bordersizeLT],0,$PARAM[bordersizeLT],0</param>
+					</include>
+					<include content="GenericBelowTextboxTemplate">
+						<param name="isFocused">$PARAM[isFocused]</param>
+						<param name="yoffset">-8r</param>
+						<param name="xoffset">$PARAM[belowtextboxleft]</param>
+						<param name="labelwidth">$PARAM[belowtextboxbackwidth]</param>
+						<param name="labelvisibility">$PARAM[belowtextboxvisibility]</param>
+						<param name="labeltext">$PARAM[belowtextbox]</param>
+						<param name="labelalign">$PARAM[belowtextboxalign]</param>
+						<param name="textboxwidth">$PARAM[belowtextboxwidth]</param>
+						<param name="bordersize">$PARAM[bordersizeLT]</param>
+						<param name="belowtextboxfont">$PARAM[belowtextboxfont]</param>
+						<param name="textboxheight">$PARAM[belowtextboxheight]</param>
+						<param name="backgroundheight">$PARAM[belowtextboxbackheight]</param>
+					</include>
+					<control type="image" description="Watched Overlay">
+						<visible>!$PARAM[isFocused] + $PARAM[showOverlay] + [!Skin.HasSetting(ShowTopRightOverlays) | [Skin.HasSetting(ShowTopRightOverlays) + [![$EXP[IsIconView]] | ListItem.IsRecording | String.StartsWith(ListItem.FolderPath,pvr)]]]</visible>
+						<left>77r</left>
+						<top>89r</top>
+						<width>50</width>
+						<height>72</height>
+						<colordiffuse>$VAR[SecondaryColor]</colordiffuse>
+						<texture diffuse="WhiteRoundedcbxST2.png">$VAR[Overlay]</texture>
+						<aspectratio aligny="center">keep</aspectratio>
+					</control>
+					<control type="image" description="Watched Overlay">
+						<visible>$PARAM[isFocused] + $PARAM[showOverlay] + [!Skin.HasSetting(ShowTopRightOverlays) | [Skin.HasSetting(ShowTopRightOverlays) + [![$EXP[IsIconView]] | ListItem.IsRecording | String.StartsWith(ListItem.FolderPath,pvr)]]]</visible>
+						<left>77r</left>
+						<top>89r</top>
+						<width>50</width>
+						<height>72</height>
+						<colordiffuse>$VAR[SecondaryColor]</colordiffuse>
+						<texture>$VAR[Overlay]</texture>
+						<aspectratio aligny="center">keep</aspectratio>
+					</control>
 				</control>
 			</control>
 		</definition>
